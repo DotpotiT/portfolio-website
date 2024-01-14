@@ -15,14 +15,14 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const serviceId = 'service_ree6unr';
-    const templateId = 'template_j4f0lbg';
-    const publicKey = 'MLnkQHnxFWMU1yz26';
+    const serviceId = 'service_x3qy2wt';
+    const templateId = 'template_gs0oyfj';
+    const publicKey = 'GEvERIK7UTIaKvYda';
 
     const templateParams = {
       from_name: name,
       from_email: email,
-      to_name: 'RMJAUTOS',
+      to_name: 'Dotpot iT',
       message: message,
     };
 

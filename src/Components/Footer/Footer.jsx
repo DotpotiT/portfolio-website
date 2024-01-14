@@ -6,18 +6,19 @@
       <div className='mt-12'>
      <footer className="footer p-10 text-white px-2 lg:px-[120px] bg-cover bg-center" style={{ background: `url('https://loading.io/assets/img/c/bg/cloud-dark.svg') no-repeat center/cover`, opacity: 1, visibility: 'visible' }}>
 
-  <nav className='flex flex-col'>
-      <header className="footer-title">Services</header> 
-      <a href='https://dotpotit.com/web-development/landing-page' className="link link-hover">Web Development</a>
-      <a href='https://dotpotit.com/key-features/it-support/#cloud-computing' className="link link-hover">IT Support</a>
-      <a className="link link-hover">Marketing</a>
-    </nav> 
+  
     <nav className='flex flex-col'>
       <header className="footer-title">Company</header> 
       <a href='https://dotpotit.com' className="link link-hover">Home</a>
       <a href='https://dotpotit.com/about' className="link link-hover">About us</a>
       <a href='https://dotpotit.com/contact' className="link link-hover">Contact</a>
     </nav> 
+    <nav className='flex flex-col'>
+      <header className="footer-title">Services</header> 
+      <a href='https://dotpotit.com/web-development/landing-page' className="link link-hover">Web Development</a>
+      <a href='https://dotpotit.com/key-features/it-support/#cloud-computing' className="link link-hover">IT Support</a>
+      <a className="link link-hover">Marketing</a>
+    </nav>
     <nav>
       <header className="footer-title">Email</header> 
       <div className=' flex flex-col gap-3 '>
@@ -36,26 +37,29 @@
   
     <nav>
       <header className="footer-title">Contact</header> 
-      <div className=' flex flex-col gap-3 '>
+      <div className=' flex flex-row gap-3 '>
       
-              <div>
+              <div className='flex flex-col gap-3'>
             
                       
               <a href='https://dotpotit.com' className='flex gap-2 items-center'><FaLink/> www.dotpotit.com</a>
               <p className='flex gap-2 items-center'><FaMobile/> +44 7441 427459  </p>
-              <p className='flex gap-2 items-center'><FaMobile/> +880 1817 176192 </p>
+              <p className='flex gap-2 items-center'> <FaLocationArrow/> 71-75 Shelton St,<br />
+
+  London WC2H 9JQ,<br />
+
+  United Kingdom </p>
+            
             
             
 
               </div>
-              <div> <p className='flex gap-2 items-center'> <FaLocationArrow/> 71-75 Shelton St,
+              <div className='flex flex-col gap-3'> 
+              <p className='flex gap-2 items-center'><FaMobile/> +880 1817 176192 </p>
 
-  London WC2H 9JQ,
+        <p className='flex gap-2 items-center'> <FaLocationArrow/> House-1 Road-3 ,<br />
 
-  United Kingdom </p>
-        <p className='flex gap-2 items-center'> <FaLocationArrow/> House-1 Road-3 ,
-
-  Block-A Mirpur-10 ,
+  Block-A Mirpur-10 ,<br />
 
   Dhaka, Bangladesh
                           </p>

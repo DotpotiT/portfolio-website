@@ -68,7 +68,7 @@ const Contact = () => {
         <ToastContainer />
 
         <div
-          className="my-16 h-[55vh] lg:h-[55vh]  p-2"
+          className="my-16 h-[67vh] lg:h-[55vh]  p-2"
           style={{
             backgroundImage:
               'url("https://res.cloudinary.com/dgohi0iqm/image/upload/v1705159069/ec85z8mt3tzxcbr1rvgn.png")',

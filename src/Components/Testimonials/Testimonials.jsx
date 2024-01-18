@@ -83,7 +83,7 @@ function Testimonials() {
               width={400}
               height={400} loading="lazy"
               className="rounded-full "
-              src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705144832/aj1omaubfqj5kecvmeza.jpg"
+              src="https://res.cloudinary.com/dzqxgr4lr/image/upload/v1705589822/jqv9q0adoomfagt93axd.png"
               alt="Clients Review- Dotpot iT"
             />
           </a>
@@ -117,7 +117,7 @@ function Testimonials() {
   >
     <div className="text-start p-10 lg:p-16">
       <h2 className="text-blue-400">Testimonials</h2>
-      <h1 className="text-2xl py-2 text-gray-300">
+      <h1 className="text-xl lg:text-2xl py-2 text-gray-300">
         Our Client's Feedback
       </h1>
       <p className="w-full lg:w-[90%] text-gray-300">{testimonial.feedback}</p>

@@ -15,7 +15,7 @@ function Ceo() {
         alt="CEO & Founder-Dotpot iT"
       />
       <div>
-        <h4 className="text-blue-400 text-lg">Message From Founder & CEO  </h4>
+        <h4 className="text-blue-400 text-lg">Message From CEO & Founder  </h4>
         <h2 className="text-2xl text-white">A Warm Hello to all,</h2>
         <p className="text-gray-400"   style={{ whiteSpace: "pre-line", textAlign: "justify" }}>
           As the CEO & Founder of Dotpot iT, I spearhead a talented team
@@ -40,7 +40,7 @@ function Ceo() {
           perspective that permeates into the solutions we offer.
         </p>
         <h3 className="text-blue-400 text-xl pt-4">Zakir Hossain </h3>
-        <h4 className="text-blue-400 text-sm"> Founder & CEO at Dotpot iT</h4>
+        <h4 className="text-blue-400 text-sm">CEO & Founder  at Dotpot iT</h4>
         <div className="flex flex-row gap-3 pt-3">
           <a
             href={`mailto:${emailAddress}`} target="_blank"

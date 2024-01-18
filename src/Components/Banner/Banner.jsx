@@ -26,7 +26,7 @@ function Banner() {
 
   return (
     <div>
-      <div className="max-w-7xl hero  mx-auto min-h-screen px-2">
+      <div className="max-w-7xl hero  mx-auto min-h-screen px-2 ">
         <div className=" flex flex-col-reverse lg:flex-row-reverse text-white justify-between gap-4 lg:gap-32">
           <Image
             width={400}
@@ -35,9 +35,9 @@ function Banner() {
             alt="Dotpot iT Banner bg image"  
             loading="lazy"
           />
-          <div className="px-2 transform -tanlate-y-4 lg:translate-y-16">
+          <div className="mx-2 transform -tanlate-y-2 lg:translate-y-16">
             <h1 className="py-2 text-xl lg:text-4xl">Welcome to Dotpot iT,</h1>
-            <p className="max-w-xl"   style={{ whiteSpace: "pre-line", textAlign: "justify" }}>
+            <p className="max-w-2xl  lg:text-lg"   style={{ whiteSpace: "pre-line", textAlign: "justify" }}>
               {displayText}
               {bannerText.length > 200 && (
                 <span

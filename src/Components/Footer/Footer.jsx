@@ -15,17 +15,18 @@ import Image from "next/image";
 function Footer() {
   return (
     <div className="mt-16">
-      <div className="footertext-white px-2 lg:px-[120px] border-base-300">
+      <div className="footer text-white px-2 lg:px-[120px] border-base-300">
         <aside className="items-center grid-flow-row">
           <h1 className="w-[25vh] lg:w-[250px] font-bold transform translate-y-5">
-            <Image
+            <a href="https://dotpotit.com/" target="_blank" rel="noopener noreferrer"> <Image
               width={260}
               height={240}
               src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1704543228/vkahrznyuobgcnmnltq9.png"
               alt=""
-            />
+            /></a>
+           
           </h1>
-          <p className="transform text-white text-xs w-[260px] lg:text-lg translate-x-10  lg:translate-x-16 ">
+          <p className="transform text-white text-xs w-[260px] lg:w-[300px] lg:text-lg translate-x-10  lg:translate-x-16 ">
             Help Business Successfull online
           </p>
         </aside>
@@ -147,7 +148,7 @@ function Footer() {
           >
             Android apps
           </a>
-          <a href="">Web apps</a>
+          
           <a
             href="https://dotpotit.com/key-features/website-development"
             target="_blank"
@@ -314,7 +315,7 @@ function Footer() {
       </div>
       <div className="mt-4 flex justify-end  gap-4 pb-4 px-4">
         <p className="text-sm text-gray-200 gap-6">Member of</p>
-        <Image src="https://res.cloudinary.com/dzqxgr4lr/image/upload/v1705575986/zapm1pnj5vti2jizlzcf.jpg" alt="basis logo" width={120} height={65} className="max-w-[120px]" />
+        <Image src="https://res.cloudinary.com/dzqxgr4lr/image/upload/v1705588996/tpmhn2jtxly4rn3fqkbj.png" alt="basis logo" width={120} height={65} className="max-w-[120px]" />
       </div>
       <p className="text-sm lg:text-md text-white mt-2 text-center">
         © 2023 Dotpot iT Ltd. , Inc. All rights reserved.

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { FaDownload } from "react-icons/fa6";
 // import EarthCanvas from '../Canvas/Earth';
 
-const pdfPath = "/dotpotit-portfolio.pdf"; // Adjust the path accordingly
+const pdfPath = "/Dotpotit-Portfolio.pdf"; // Adjust the path accordingly
 
 function Banner() {
   const bannerText =
@@ -17,12 +17,7 @@ function Banner() {
 
   const displayText = showMore ? bannerText : bannerText.slice(0, 200);
 
-  // const downloadPDF = () => {
-  //   const link = document.createElement("a");
-  //   link.href = pdfPath;
-  //   link.download = "dotpotit-portfolio.pdf";
-  //   link.click();
-  // };
+
 
   return (
     <div>

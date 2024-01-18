@@ -3,18 +3,18 @@ import React from "react";
 
 function About() {
   return (
-    <div className="max-w-6xl mx-auto flex mb-7 transform lg:-translate-y-32">
-      <div className=" ">
-        <div className="hero-content flex-col lg:flex-row max-w-6xl mx-auto  gap-5">
+    <div className="max-w-7xl mx-auto flex mb-7 transform lg:-translate-y-32">
+      <div className="px-1">
+        <div className="hero-content flex-col lg:flex-row max-w-7xl mx-auto  gap-5">
           <Image
             width={700}
             height={600}
             src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1704383070/dkzystq9alhecixuhafi.png"
             alt="about"
-            className=" w-[45vh] lg:max-w-sm  rounded-lg shadow-2xl"
+            className=" w-[45vh] lg:max-w-xl  rounded-lg shadow-2xl"
           />
           <div>
-            <h1 className="text-4xl font-bold text-gray-500">About Company!</h1>
+            <h1 className="text-3xl font-bold text-gray-400">About Company!</h1>
             <p className="py-6 lg:w-[700px] text-gray-400">
               Dotpot iT Ltd. is a multi-faceted technology company that offers a
               range of services to meet the needs of businesses of all sizes.

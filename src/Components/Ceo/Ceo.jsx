@@ -11,11 +11,11 @@ function Ceo() {
         width={600}
         height={300}
         loading="lazy"
-        src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705147719/exzsd1nhnaz0z4fh9h9e.jpg"
+        src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705147719/exzsd1nhnaz0z4fh9h9e.jpg" 
         alt="CEO & Founder-Dotpot iT"
       />
       <div>
-        <h4 className="text-blue-700 text-lg">Message From Founder</h4>
+        <h4 className="text-blue-400 text-lg">Message From Founder & CEO  </h4>
         <h2 className="text-2xl text-white">A Warm Hello to all,</h2>
         <p className="text-gray-400">
           As the CEO & Founder of Dotpot iT, I spearhead a talented team
@@ -39,11 +39,11 @@ function Ceo() {
           mentorship initiatives. This proactive approach ensures a cutting-edge
           perspective that permeates into the solutions we offer.
         </p>
-        <h3 className="text-blue-700 text-xl pt-4">Zakir Hossain </h3>
-        <h4 className="text-blue-600 text-sm">CEO & Founder,Dotpot iT</h4>
+        <h3 className="text-blue-400 text-xl pt-4">Zakir Hossain </h3>
+        <h4 className="text-blue-400 text-sm"> Founder & CEO at Dotpot iT</h4>
         <div className="flex flex-row gap-3 pt-3">
           <a
-            href={`mailto:${emailAddress}`}
+            href={`mailto:${emailAddress}`} target="_blank"
             className="rounded-full border-dashed border-2 p-2"
             aria-label="Email Us"
           >
@@ -53,7 +53,7 @@ function Ceo() {
           <a
             href="https://uk.linkedin.com/in/zakir-hossain-dotpotit?trk=profile-badg"
             className="rounded-full border-dashed border-2 p-2"
-            aria-label="Connect with us on LinkedIn"
+            aria-label="Connect with us on LinkedIn" target="_blank"
           >
             <FaLinkedin className="rounded-full text-white text-4xl  p-2" />
           </a>

@@ -13,49 +13,49 @@ function Partners() {
 
       <div className=" px-1 flex flex-row  justify-center flex-wrap gap-2 lg:max-w-7xl lg:mx-auto">
         <Image
-          width={280}
+          width={300}
           height={20}
           src="https://portfolio.dotsoft.buzz/img/partnership/pt6.PNG"
           alt="corner stripe"
         />
         <Image
-          width={280}
+          width={300}
           height={20}
           src="https://portfolio.dotsoft.buzz/img/partnership/pt7.PNG"
           alt="Brain Storms station"
         />
         <Image
-          width={280}
+          width={300}
           height={20}
           src="https://portfolio.dotsoft.buzz/img/partnership/pt2.PNG"
           alt="Sunny International"
         />
         <Image
-          width={280}
+          width={300}
           height={20}
           src="https://portfolio.dotsoft.buzz/img/partnership/pt1.PNG"
           alt="Adon"
         />
         <Image
-          width={280}
+          width={300}
           height={20}
           src="https://portfolio.dotsoft.buzz/img/partnership/pt-10.png"
           alt="bitbyte technology"
         />
         <Image
-          width={280}
+          width={300}
           height={20}
           src="https://portfolio.dotsoft.buzz/img/partnership/pt4.PNG"
           alt="Audacity"
         />
         <Image
-          width={280}
+          width={300}
           height={20}
           src="https://portfolio.dotsoft.buzz/img/partnership/pt8.PNG"
           alt="Spring Devs"
         />
         <Image
-          width={280}
+          width={300}
           height={20}
           src="https://portfolio.dotsoft.buzz/img/partnership/pt3.PNG"
           alt="Shooting Star Ltd"

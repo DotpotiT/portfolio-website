@@ -1,36 +1,41 @@
 import React from "react";
+import Link from "next/link";
 
 const services = [
-  "Web Development",
-  "Software Development",
-  "Mobile Application",
-  "UI/UX Design",
-  "Digital Marketing",
-  "AI Development",
-  "Contact Center",
+  { name: "Web Development", link: "https://dotpotit.com/web-development/landing-page" },
+  { name: "Software Development", link: "https://dotpotit.com/web-development/landing-page" },
+  { name: "Mobile Application", link: "https://dotpotit.com/key-features/contact-center-support/#mobile-app" },
+  { name: "UI/UX Design", link: "https://dotpotit.com/" },
+  { name: "Digital Marketing", link: "https://dotpotit.com/" },
+  { name: "AI Development", link: "https://dotpotit.com/key-features/ai-development/#object-recognition" },
+  { name: "Contact Center", link: "https://dotpotit.com/contact" },
 ];
 
 function Services() {
   const containerStyle = {
-    // backgroundImage: `url('https://tech-ai.vercel.app/_next/static/media/sponsor-bg.b182ce21.png')`, // Replace 'path_to_your_image.jpg' with the actual path to your image
     backgroundSize: "cover",
     backgroundPosition: "center",
-    // You can add more styles like backgroundRepeat, etc., as needed
   };
 
   return (
-    <div
-      className="grid grid-cols-2 lg:grid-cols-3 overflow-hidden px-3  lg:p-9 lg:px-16  w-full lg:max-w-6xl mx-auto gap-4 lg:gap-8 transform  lg:-translate-y-32 py-3 "
+    <div className="w-full lg:max-w-7xl mx-auto  transform -translate-y-16">
+       <h2 className="text-center mb-11 text-2xl text-gray-200">Our Services</h2>
+       <div
+      className="grid grid-cols-2 lg:grid-cols-3 overflow-hidden px-3  lg:p-9 lg:px-3  gap-4 lg:gap-8 transform  lg:-translate-y-32 py-3 "
       style={containerStyle}
     >
       {services.map((service, index) => (
         <div key={index} className="rounded-lg lg:px-5 ">
-          <p className="button-85 max-w-full" role="button">
-            {service}
-          </p>
+          <a href={service.link} target="-blank">
+            <p className="button-85 max-w-full h-[8vh] lg:h-auto" role="button">
+              {service.name}
+            </p>
+          </a>
         </div>
       ))}
     </div>
+    </div>
+    
   );
 }
 

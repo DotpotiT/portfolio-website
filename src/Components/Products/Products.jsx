@@ -1,12 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import { FaEye, FaGithub } from "react-icons/fa6";
-import { FaLink } from "react-icons/fa6";
 
 function Products() {
   return (
-    <div className="max-w-[1400px] mx-auto">
-      <h2 className="text-2xl py-5 text-center text-gray-400">
+    <div className="max-w-[1400px] mx-auto px-3">
+      <h2 className="text-3xl py-5 text-center mb-14 font-bold text-gray-400">
         Our Recent Projects
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 px-2 md:px-10 lg:px-20">

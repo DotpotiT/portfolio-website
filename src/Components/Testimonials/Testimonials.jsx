@@ -40,7 +40,7 @@ function Testimonials() {
       backgroundColor: "#020505",
       feedback:
         "We have been working with DotpotiT team for over 2 years now. I must say we have come a long way together and all along their team has been flexible to our ad-hoc requests.",
-      author: "Richardson Pjel",
+      author: "Richardson Paul",
       location: "United Kingdom",
       avatarImages:
         "https://img.freepik.com/free-photo/smiling-man-white-shirt-typing-text-message-scrolling-feed-social-network-using-smartphone-gray_171337-634.jpg",
@@ -115,7 +115,7 @@ function Testimonials() {
       backgroundColor: testimonial.backgroundColor,
     }}
   >
-    <div className="text-start p-3 lg:p-16">
+    <div className="text-start p-12 lg:p-16">
       <h2 className="text-blue-400">Testimonials</h2>
       <h1 className="text-2xl py-2 text-gray-300">
         Our Client's Feedback

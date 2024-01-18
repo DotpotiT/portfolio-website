@@ -4,15 +4,16 @@ import { GiArtificialHive,GiDigitalTrace } from "react-icons/gi";
 import { FaPencilRuler } from "react-icons/fa";
 import { GrCloudSoftware } from "react-icons/gr";
 import { MdOutlineSupportAgent,MdConnectWithoutContact } from "react-icons/md";
+import Link from "next/link";
 function ProvidedService() {
   return (
     <div className="max-w-7xl mx-auto mt-6 p-1">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  py-8 gap-5">
-        <div className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
-          <div className="text-white text-7xl pt-3 max-w-xl mx-auto">
+        <a href="https://dotpotit.com/web-development/landing-pag" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+          <div className="text-white text-7xl -mt-[4px] max-w-xl mx-auto">
             <TbBrandWebflow />
           </div>
-          <div className="card-body transform -translate-y-4 items-center text-center">
+          <div  className="card-body transform -translate-y-4 items-center text-center">
             <h2 className="card-title  text-gray-300">Web Development</h2>
             <p
               className="text-gray-300 text-sm"
@@ -30,8 +31,8 @@ function ProvidedService() {
               trusted partner for top-notch web solutions.
             </p>
           </div>
-        </div>
-        <div className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+        </a>
+        <a href="https://dotpotit.com/web-development/landing-pag" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
           <GrCloudSoftware className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">
@@ -53,9 +54,9 @@ function ProvidedService() {
               technological advancement.
             </p>
           </div>
-        </div>
+        </a>
 
-        <div className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+        <a href="https://dotpotit.com/key-features/contact-center-support/#mobile-app" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
           <TbGoGame className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">
@@ -74,9 +75,9 @@ function ProvidedService() {
               partner for turning mobile aspirations into reality.
             </p>
           </div>
-        </div>
+        </a>
 
-        <div className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+        <a href="https://dotpotit.com/key-features/it-support/#cloud-computing" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
           <MdOutlineSupportAgent className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">
@@ -97,8 +98,8 @@ function ProvidedService() {
               iT – where your technology challenges find expert solutions.
             </p>
           </div>
-        </div>
-        <div className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+        </a>
+        <a href="https://dotpotit.com/key-features/ai-development/#object-recognition" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
           <GiArtificialHive className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">
@@ -118,9 +119,9 @@ function ProvidedService() {
               dedicated partner for unlocking the full potential of AI.
             </p>
           </div>
-        </div>
+        </a>
 
-        <div className="card w-[40vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200 ">
+        <a href="https://dotpotit.com/" target="_blank" className="card w-[40vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200 ">
           <FaPencilRuler className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">
@@ -142,8 +143,8 @@ function ProvidedService() {
               function seamlessly across device
             </p>
           </div>
-        </div>
-        <div className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+        </a>
+        <a href="https://dotpotit.com/" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
           <GiDigitalTrace className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">
@@ -162,8 +163,8 @@ function ProvidedService() {
               online presence.
             </p>
           </div>
-        </div>
-        <div className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+        </a>
+        <a href="https://dotpotit.com/contact" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
           <MdConnectWithoutContact className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">
@@ -181,7 +182,7 @@ function ProvidedService() {
               experience – where communication meets excellence.
             </p>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   );

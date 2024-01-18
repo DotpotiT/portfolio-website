@@ -68,7 +68,7 @@ const Contact = () => {
         <ToastContainer />
 
         <div
-          className="py-16 h-[65vh] lg:h-[55vh]  p-2"
+          className="my-16 h-[55vh] lg:h-[55vh]  p-2"
           style={{
             backgroundImage:
               'url("https://res.cloudinary.com/dgohi0iqm/image/upload/v1705159069/ec85z8mt3tzxcbr1rvgn.png")',
@@ -80,7 +80,7 @@ const Contact = () => {
           }}
         >
           <div className=" max-w-3xl mx-auto ">
-            <h1 className="text-center text-xl lg:text-3xl text-white py-2 lg:py-5">
+            <h1 className="text-center text-2xl lg:text-3xl text-white py-2 lg:py-5">
               Contact Us
             </h1>
             <div className="border p-9 border-white bg-gray-800 rounded ">

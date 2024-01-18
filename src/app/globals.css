@@ -15,7 +15,7 @@ htm{
 
 button {
   position: relative;
-  padding: 15px 30px;
+  padding: 10px 30px;
   display: block;
   text-decoration: none;
   text-transform: uppercase;
@@ -27,7 +27,7 @@ button {
 button span {
   position: relative;
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
   font-family: Arial;
   letter-spacing: 8px;
   z-index: 1;

@@ -59,8 +59,8 @@ function Faq() {
     setActiveIndex2(activeIndex2 === index ? null : index);
   };
   return (
-    <div className="max-w-7xl mx-auto py-16 px-2">
-      <h2 className="text-2xl text-orange-300/60 font-bold mb-4">
+    <div className="max-w-7xl mx-auto py-16 px-3">
+      <h2 className="text-2xl text-orange-300/60 text-center font-bold mb-11">
         Frequently Asked Questions
       </h2>
       <div className="flex flex-col lg:flex-row justify-between gap-4 ">

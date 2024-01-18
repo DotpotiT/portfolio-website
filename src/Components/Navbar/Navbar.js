@@ -14,13 +14,16 @@ function Navbar() {
               alt="Dotpot iT Logo"
             />
           </a>
-
-          <a
-            href="https://dotpotit.com/"
-            className="btn-outline  h-10  lg:ml-2 w-[10vh] lg:w-[20vh] py-2 rounded-xl border-2 border-transparent text-black font-bold bg-gradient-to-r from-gray-600 to-orange-400 transform hover:rotate-y-3 hover:rotate-x-3 flex-row items-center lg:text-lg text-xs text-center"
-          >Visit
-          our Website
-          </a>
+          <button className= " nav px-5 text-sm mt-6" >
+             
+              
+             <span className="text-md   items-center">
+              <a href="https://dotpotit.com/" className="flex flex-row" >Visit  Website </a>
+             </span>
+          
+           <div className="liquids"></div>
+         </button>
+ 
         </div>
       </div>
     </div>  

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { FaDownload } from "react-icons/fa6";
 // import EarthCanvas from '../Canvas/Earth';
 
-const pdfPath = "./assets/dotpotit-portfolio.pdf"; // Adjust the path accordingly
+const pdfPath = "/dotpotit-portfolio.pdf"; // Adjust the path accordingly
 
 function Banner() {
   const bannerText =

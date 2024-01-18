@@ -15,7 +15,7 @@ function About() {
           />
           <div>
             <h1 className="text-3xl font-bold text-gray-400">About Company!</h1>
-            <p className="py-6 lg:w-[700px] text-gray-400">
+            <p className="py-6 lg:w-[700px] text-gray-400"   style={{ whiteSpace: "pre-line", textAlign: "justify" }}>
               Dotpot iT Ltd. is a multi-faceted technology company that offers a
               range of services to meet the needs of businesses of all sizes.
               Whether you're looking to create a website, develop software,

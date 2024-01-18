@@ -17,7 +17,7 @@ function Ceo() {
       <div>
         <h4 className="text-blue-400 text-lg">Message From Founder & CEO  </h4>
         <h2 className="text-2xl text-white">A Warm Hello to all,</h2>
-        <p className="text-gray-400">
+        <p className="text-gray-400"   style={{ whiteSpace: "pre-line", textAlign: "justify" }}>
           As the CEO & Founder of Dotpot iT, I spearhead a talented team
           delivering innovative IT solutions across diverse sectors. With over a
           decade of industry immersion, my passion lies in harnessing

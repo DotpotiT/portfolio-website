@@ -17,12 +17,12 @@ function Banner() {
 
   const displayText = showMore ? bannerText : bannerText.slice(0, 200);
 
-  const downloadPDF = () => {
-    const link = document.createElement("a");
-    link.href = pdfPath;
-    link.download = "dotpotit-portfolio.pdf";
-    link.click();
-  };
+  // const downloadPDF = () => {
+  //   const link = document.createElement("a");
+  //   link.href = pdfPath;
+  //   link.download = "dotpotit-portfolio.pdf";
+  //   link.click();
+  // };
 
   return (
     <div>
@@ -37,7 +37,7 @@ function Banner() {
           />
           <div className="px-2 transform -tanlate-y-4 lg:translate-y-16">
             <h1 className="py-2 text-xl lg:text-4xl">Welcome to Dotpot iT,</h1>
-            <p className="max-w-xl">
+            <p className="max-w-xl"   style={{ whiteSpace: "pre-line", textAlign: "justify" }}>
               {displayText}
               {bannerText.length > 200 && (
                 <span
@@ -48,12 +48,12 @@ function Banner() {
                 </span>
               )}
             </p>
-            <button className="px-5 text-sm mt-6" onClick={downloadPDF}>
+            <button className="px-5 text-sm mt-6" >
               <span className="flex flex-row  items-center">
                 {" "}
                 Portfolio{" "}
                 <span className="text-sm">
-                  <FaDownload />{" "}
+                 <a href={pdfPath} download="Dotpotit-portfolio"> <FaDownload />{" "} </a>
                 </span>
               </span>
               <div className="liquid"></div>

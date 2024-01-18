@@ -16,12 +16,12 @@ import StarsCanvas from "@/Components/ThemeScene/ThemeScene";
 export default function Home() {
   return (
     <main>
-      <div className="relative z-0">
+     
         <StarsCanvas />
         <Banner />
         <Services />
         <About />
-        <MissionVission />
+        {/* <MissionVission /> */}
         <Products />
         <ProvidedService />
         <Testimonials />
@@ -30,7 +30,7 @@ export default function Home() {
 
         <Partners />
         <Contact />
-      </div>
+   
     </main>
   );
 }

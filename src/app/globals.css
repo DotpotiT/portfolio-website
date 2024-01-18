@@ -4,9 +4,7 @@
 
 
 
-htm{
-  scroll-behavior: smooth;
-}
+
 
 
 
@@ -264,6 +262,8 @@ button:hover .liquid{
 .circular-btn:hover {
   background-color: #ff5555; /* Change background color on hover */
 }
+
+
 
 
 

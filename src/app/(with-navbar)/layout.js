@@ -11,7 +11,8 @@ function WithNavbar({ children }) {
   };
 
   return (
-    <div className='bg-[#020505]' style={containerStyle}>
+    <div className='bg-[#020505] w-full' style={containerStyle}>
+
       <Navbar />
       <div>{children}</div>
       <Footer/>

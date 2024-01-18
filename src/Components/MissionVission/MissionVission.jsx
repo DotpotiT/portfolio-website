@@ -6,7 +6,7 @@ function MissionVision() {
       <div className="flex flex-col w-full p-4 gap-4">
         <div>
           <h2 className="text-xl text-blue-400 pt-3">Our Mission</h2>
-          <p className="text-gray-400">
+          <p className="text-gray-400"   style={{ whiteSpace: "pre-line", textAlign: "justify" }}>
             Being a professional software development, web development and
             mobile application development company, our mission is to provide
             customer-centric, result-oriented, cost-competitive innovative &
@@ -15,7 +15,7 @@ function MissionVision() {
         </div>
         <div>
           <h2 className="text-xl text-blue-400">Our Vision</h2>
-          <p className="text-gray-400">
+          <p className="text-gray-400"   style={{ whiteSpace: "pre-line", textAlign: "justify" }}>
             Our vision is to be a well-established software development company
             to serve the SMEs, Enterprises and Startups. We know that Customer’s
             growth is our growth, so we commit our customers to help in
@@ -26,7 +26,7 @@ function MissionVision() {
         </div>
       </div>
       <div className="px-2">
-        <div style={{ position: "relative", width: "520px", height: "240px" ,display:"flex", justifyContent:"center", }}>
+        <div style={{ position: "relative", width: "100%", height: "100%" ,display:"flex", justifyContent:"center", }}>
           <video loop="1" autoPlay muted width="100%" height="80%" className="w-[42vh] lg:w-full" >
             <source
               src="https://res.cloudinary.com/dzqxgr4lr/video/upload/v1704705755/xwhhxprltqz8uv5wzpas.mp4"

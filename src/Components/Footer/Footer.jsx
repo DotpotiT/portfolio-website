@@ -2,18 +2,15 @@ import React from "react";
 import {
   FaFacebook,
   FaInstagram,
-  FaLink,
   FaLinkedin,
-  FaLocationArrow,
-  FaMobile,
-  FaTiktok,
+
   FaTwitter,
   FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa6";
 import { AiOutlineMail } from "react-icons/ai";
 import Image from "next/image";
-import Link from "next/link";
+
 
 function Footer() {
   return (
@@ -28,7 +25,7 @@ function Footer() {
               alt=""
             />
           </h1>
-          <p className="transform translate-x-16 -translate-y-4">
+          <p className="transform translate-x-16 -translate-y-2">
             Help Business Successfull online
           </p>
         </aside>
@@ -41,113 +38,7 @@ function Footer() {
           visibility: "visible",
         }}
       >
-        <nav className="flex flex-col  gap-4 lg:gap-9">
-          <div className="flex flex-col lg:flex-row justify-between   gap-4 lg:gap-32">
-            <div>
-              <h2>Dotpot iT LTD</h2>
-              <a
-                href="https://www.google.com/maps/place/Dotpot+iT+Ltd/@51.5148525,-0.123525,15z/data=!4m6!3m5!1s0x487605a02838cbed:0xf63b335f5805893f!8m2!3d51.5148525!4d-0.123525!16s%2Fg%2F11v6sspb2h?hl=en&entry=ttuhttps://www.google.com/maps/uv?pb=!1s0x487605a02838cbed%3A0xf63b335f5805893f!3m1!7e115!4s%2Fmaps%2Fplace%2FDotpot%2BiT%2BLtd%2F%4051.5146962%2C-0.1235932%2C3a%2C75y%2C15.18h%2C90t%2Fdata%3D*213m4*211e1*213m2*211s9zvNB_8TjEOW7m15S4GVpg*212e0*214m2*213m1*211s0x487605a02838cbed%3A0xf63b335f5805893f%3Fsa%3DX%26ved%3D2ahUKEwjalp_imPKAAxWrT2wGHfTuAbEQpx96BAg4EAA%26hl%3Den!5sDotpot%20iT%20Ltd%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e2!2s9zvNB_8TjEOW7m15S4GVpg&hl=en&sa=X&ved=2ahUKEwjalp_imPKAAxWrT2wGHfTuAbEQpx96BAhGEA0"
-                target="_blank"
-              >
-                <p>71-75 Shelton St</p>
-                <p>London WC2H 9JQ</p>
-                <p>United Kingdom</p>
-              </a>
-              <p>
-                <strong>Phone: </strong>
-                <a href="+44 7441 427459"> +44 7441 427459 </a>
-              </p>
-            </div>
-
-            <div>
-              <p>Dotpot iT LTD</p>
-              <a
-                href="https://www.google.com/maps/place/Dotpot+iT/@23.8098024,90.3654215,17z/data=!3m1!4b1!4m6!3m5!1s0x3755c154f4caa0ad:0x31fecdb3c5351d8d!8m2!3d23.8097975!4d90.3679964!16s%2Fg%2F11k9f3pm3k?entry=ttu"
-                target="_blank"
-              >
-                <p>House-1 Road-3 </p>
-                <p>Block-A Mirpur-10</p>
-                <p>Dhaka Bangladesh</p>
-              </a>
-              <p>
-                <strong>Phone:</strong>
-                <a
-                  href="+88 01817 176192"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  +880 1817 176192
-                </a>
-              </p>
-            </div>
-          </div>
-
-          <div>
-            <p>
-              <strong>Emails:</strong>{" "}
-            </p>
-            <p>help@dotpotit.com</p>
-            <p> hr@dotpotit.com</p>
-            <p> marketing@dotpotit.com</p>
-            <div className="flex flex-row gap-3 mt-2">
-              <a
-                href="mailto:help@dotpotit.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                <AiOutlineMail className="text-xl" />
-              </a>
-              <a
-                href="https://api.whatsapp.com/send/?phone=%2B8801817176192&text&type=phone_number&app_absent=0"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaWhatsapp className="text-xl" />
-              </a>
-              <a
-                href="https://www.linkedin.com/company/dotpotit "
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                <FaLinkedin className="text-xl" />{" "}
-              </a>{" "}
-              <a
-                href="https://twitter.com/dotpotit "
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                <FaTwitter className="text-xl" />{" "}
-              </a>{" "}
-              <a
-                href="https://www.facebook.com/dotpotit/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                <FaFacebook className="text-xl" />{" "}
-              </a>{" "}
-              <a
-                href="https://www.instagram.com/dotpotit/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                <FaYoutube className="text-xl" />{" "}
-              </a>{" "}
-              <a
-                href="https://www.youtube.com/@dotpotit"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                <FaInstagram className="text-xl" />{" "}
-              </a>{" "}
-            </div>
-          </div>
-        </nav>
+    
 
         <nav className="flex flex-col">
           <h2 className="footer-title">About</h2>
@@ -310,6 +201,116 @@ function Footer() {
             Web Chat
           </a>
         </nav>
+        <nav >
+       <h2 className="footer-title">Contact  </h2>
+       <div className="flex flex-col  gap-4 lg:gap-9">
+          <div className="flex flex-col lg:flex-row justify-between   gap-4 lg:gap-32">
+            <div>
+              <h2>Dotpot iT LTD</h2>
+              <a
+                href="https://www.google.com/maps/place/Dotpot+iT+Ltd/@51.5148525,-0.123525,15z/data=!4m6!3m5!1s0x487605a02838cbed:0xf63b335f5805893f!8m2!3d51.5148525!4d-0.123525!16s%2Fg%2F11v6sspb2h?hl=en&entry=ttuhttps://www.google.com/maps/uv?pb=!1s0x487605a02838cbed%3A0xf63b335f5805893f!3m1!7e115!4s%2Fmaps%2Fplace%2FDotpot%2BiT%2BLtd%2F%4051.5146962%2C-0.1235932%2C3a%2C75y%2C15.18h%2C90t%2Fdata%3D*213m4*211e1*213m2*211s9zvNB_8TjEOW7m15S4GVpg*212e0*214m2*213m1*211s0x487605a02838cbed%3A0xf63b335f5805893f%3Fsa%3DX%26ved%3D2ahUKEwjalp_imPKAAxWrT2wGHfTuAbEQpx96BAg4EAA%26hl%3Den!5sDotpot%20iT%20Ltd%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e2!2s9zvNB_8TjEOW7m15S4GVpg&hl=en&sa=X&ved=2ahUKEwjalp_imPKAAxWrT2wGHfTuAbEQpx96BAhGEA0"
+                target="_blank"
+              >
+                <p>71-75 Shelton St</p>
+                <p>London WC2H 9JQ</p>
+                <p>United Kingdom</p>
+              </a>
+              <p>
+                <strong>Phone: </strong>
+                <a href="+44 7441 427459"> +44 7441 427459 </a>
+              </p>
+            </div>
+
+            <div>
+              <p>Dotpot iT LTD</p>
+              <a
+                href="https://www.google.com/maps/place/Dotpot+iT/@23.8098024,90.3654215,17z/data=!3m1!4b1!4m6!3m5!1s0x3755c154f4caa0ad:0x31fecdb3c5351d8d!8m2!3d23.8097975!4d90.3679964!16s%2Fg%2F11k9f3pm3k?entry=ttu"
+                target="_blank"
+              >
+                <p>House-1 Road-3 </p>
+                <p>Block-A Mirpur-10</p>
+                <p>Dhaka Bangladesh</p>
+              </a>
+              <p>
+                <strong>Phone:</strong>
+                <a
+                  href="+88 01817 176192"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  +880 1817 176192
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              <strong>Emails:</strong>{" "}
+            </p>
+            <p>help@dotpotit.com</p>
+            <p> hr@dotpotit.com</p>
+            <p> marketing@dotpotit.com</p>
+            <div className="flex flex-row gap-3 mt-2">
+              <a
+                href="mailto:help@dotpotit.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <AiOutlineMail className="text-xl" />
+              </a>
+              <a
+                href="https://api.whatsapp.com/send/?phone=%2B8801817176192&text&type=phone_number&app_absent=0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaWhatsapp className="text-xl" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/dotpotit "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <FaLinkedin className="text-xl" />{" "}
+              </a>{" "}
+              <a
+                href="https://twitter.com/dotpotit "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <FaTwitter className="text-xl" />{" "}
+              </a>{" "}
+              <a
+                href="https://www.facebook.com/dotpotit/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <FaFacebook className="text-xl" />{" "}
+              </a>{" "}
+              <a
+                href="https://www.instagram.com/dotpotit/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <FaYoutube className="text-xl" />{" "}
+              </a>{" "}
+              <a
+                href="https://www.youtube.com/@dotpotit"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <FaInstagram className="text-xl" />{" "}
+              </a>{" "}
+            </div>
+          </div>
+       </div>
+        </nav>  
       </div>
       <div className="mt-4 flex justify-end  gap-4 pb-4 px-4">
         <p className="text-sm text-gray-200 gap-6">Member of</p>

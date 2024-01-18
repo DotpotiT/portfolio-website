@@ -115,12 +115,12 @@ function Testimonials() {
       backgroundColor: testimonial.backgroundColor,
     }}
   >
-    <div className="text-start p-12 lg:p-16">
+    <div className="text-start p-10 lg:p-16">
       <h2 className="text-blue-400">Testimonials</h2>
       <h1 className="text-2xl py-2 text-gray-300">
         Our Client's Feedback
       </h1>
-      <p className="w-[90%] text-gray-300">{testimonial.feedback}</p>
+      <p className="w-full lg:w-[90%] text-gray-300">{testimonial.feedback}</p>
       <div className="pt-16">
         <p className="text-gray-300 font-bold">{testimonial.author}</p>
         <p className="text-gray-300">{testimonial.location}</p>

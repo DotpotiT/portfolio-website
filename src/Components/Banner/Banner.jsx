@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { FaDownload } from "react-icons/fa6";
 // import EarthCanvas from '../Canvas/Earth';
 
-const pdfPath = "/assets/dotpotit-portfolio.pdf"; // Adjust the path accordingly
+const pdfPath = "./assets/dotpotit-portfolio.pdf"; // Adjust the path accordingly
 
 function Banner() {
   const bannerText =
@@ -49,13 +49,12 @@ function Banner() {
               )}
             </p>
             <button className="px-5 text-sm mt-6" >
-              <span className="flex flex-row  items-center">
-                {" "}
-                Portfolio{" "}
-                <span className="text-sm">
-                 <a href={pdfPath} download="Dotpotit-portfolio"> <FaDownload />{" "} </a>
+             
+              
+                <span className="text-md   items-center">
+                 <a href={pdfPath} className="flex flex-row" download="Dotpotit-portfolio">   Portfolio{" "}<span className="text-lg"><FaDownload /></span> {" "} </a>
                 </span>
-              </span>
+             
               <div className="liquid"></div>
             </button>
           </div>

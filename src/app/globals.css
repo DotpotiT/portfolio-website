@@ -72,22 +72,21 @@ button:hover .liquid{
   top: -120px;
 }
 
-.nav{
+.nav {
   position: relative;
-  padding: 5px 10px;
+  padding: 10px 15px;
   display: block;
   text-decoration: none;
   text-transform: uppercase;
-  width: 150px;
+  width: 300px;
   overflow: hidden;
   border-radius: 40px;
-  
 }
 
 .nav span {
   position: relative;
   color: #fff;
-  font-size: 7px;
+  font-size: 12px;
   font-family: Arial;
   letter-spacing: 2px;
   z-index: 1;
@@ -98,7 +97,7 @@ button .liquids {
   position: absolute;
   top: -80px;
   left: 0;
-  width: 150px;
+  width: 170px;
   height: 200px;
   background: #4973ff;
   box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
@@ -118,21 +117,69 @@ button .liquids::before {
 }
 
 button .liquids::before {
-  
   border-radius: 45%;
   background: rgba(20, 20, 20, 1);
   animation: animate 5s linear infinite;
 }
 
 button .liquids::after {
-  
   border-radius: 40%;
   background: rgba(20, 20, 20, .5);
   animation: animate 10s linear infinite;
 }
 
-button:hover .liquids{
+button:hover .liquids {
   top: -120px;
+}
+
+/* Media Query for smaller screens (adjust the max-width as needed) */
+@media (max-width: 320px) {
+  .nav {
+    width: 50%; /* Make the navigation take the full width */
+    font-size: 2px;
+    z-index: 1;
+    text-align: center;
+  
+  }
+
+  button .liquids {
+    width: 100%; /* Make the liquid element take the full width */
+    height: 150px; /* Adjust the height as needed */
+    position: absolute;
+    top: -80px;
+    left: 0;
+  
+    background: #4973ff;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+    transition: .5s;
+  }
+  button .liquids::after,
+button .liquids::before {
+  content: '';
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  background: #000;
+}
+
+button .liquids::before {
+  border-radius: 45%;
+  background: rgba(20, 20, 20, 1);
+  animation: animate 5s linear infinite;
+}
+
+button .liquids::after {
+  border-radius: 40%;
+  background: rgba(20, 20, 20, .5);
+  animation: animate 10s linear infinite;
+}
+
+button:hover .liquids {
+  top: -120px;
+}
 }
 
 @keyframes animate {

@@ -213,7 +213,7 @@ function Footer() {
             <p>help@dotpotit.com</p>
             <p> hr@dotpotit.com</p>
             <p> marketing@dotpotit.com</p>
-            <div className="flex flex-row gap-3 mt-2">
+            <div className="flex flex-row gap-3 mt-5">
               <a
                 href="mailto:help@dotpotit.com"
                 target="_blank"

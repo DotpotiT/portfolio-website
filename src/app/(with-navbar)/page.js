@@ -10,6 +10,7 @@ import Partners from "@/Components/Partners/Partners";
 import Products from "@/Components/Products/Products";
 import ProvidedService from "@/Components/ProvidedService/ProvidedService";
 import Services from "@/Components/Services/Services";
+import TeamMembers from "@/Components/TeamMembers/TeamMembers";
 import Testimonials from "@/Components/Testimonials/Testimonials";
 import StarsCanvas from "@/Components/ThemeScene/ThemeScene";
 
@@ -27,7 +28,7 @@ export default function Home() {
         <Testimonials />
         <Faq />
         <Ceo />
-
+<TeamMembers/>
         <Partners />
         <Contact />
       </div>

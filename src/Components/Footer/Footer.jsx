@@ -42,7 +42,6 @@ function Footer() {
     
 
         <nav className="flex flex-col">
-          <h2 className="footer-title">About</h2>
           <a
             href="https://dotpotit.com"
             target="_blank"
@@ -85,11 +84,7 @@ function Footer() {
             {" "}
            Terms & Conditions
           </a>
-          <a href="https://dotpotit.com/white-paper" target="_blank"
-            rel="noopener noreferrer">
-            {" "}
-           White Paper
-          </a>
+      
           <a href="https://dotpotit.com/faq" target="_blank"
             rel="noopener noreferrer">
             {" "}
@@ -97,7 +92,6 @@ function Footer() {
           </a>
         </nav>
         <nav className="flex flex-col">
-          <h2 className="footer-title">Tech Support</h2>
           <a
             href="https://dotpotit.com/web-development/landing-page "
             target="_blank"
@@ -114,26 +108,20 @@ function Footer() {
             IT Support
           </a>
           <a
-            href="https://dotpotit.com/industries-we-serve/gaming/#unity-3D"
+            href="https://dotpotit.com/contact"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Game Development
+           Contact Center
           </a>
           <a
             href="https://dotpotit.com/key-features/mobile-app-development"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Hybrid Apps
+            Software Development
           </a>
-          <a
-            href="https://dotpotit.com/key-features/mobile-app-development/#ios"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            iPhone Apps
-          </a>
+      
           <a
             href="https://dotpotit.com/key-features/ai-development/#object-recognition"
             target="_blank"
@@ -142,68 +130,37 @@ function Footer() {
             AI Development
           </a>
           <a
-            href="https://dotpotit.com/key-features/mobile-app-development/#android"
+            href="https://dotpotit.com/key-features/contact-center-support/#mobile-app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Android apps
+           Mobile Application
           </a>
           
           <a
-            href="https://dotpotit.com/key-features/website-development"
+            href="https://dotpotit.com/industries-we-serve/gaming/#unity-3D"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Web apps
+            3D Animation
+          </a>
+          <a
+            href="https://dotpotit.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Digital Marketing
+          </a>
+          <a
+            href="https://dotpotit.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+           UI/UX Design
           </a>
         </nav>
-        <nav className="flex flex-col">
-          <h2 className="footer-title">Contact Center</h2>
-          <a
-            href="https://dotpotit.com/web-development/landing-page"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Mobile
-          </a>
-          <a
-            href="https://dotpotit.com/key-features/it-support/#cloud-computing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            ACD
-          </a>
-          <a
-            href="https://dotpotit.com/key-features/contact-center-support/#cti"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            CTI
-          </a>
-          <a
-            href="https://dotpotit.com/key-features/contact-center-support/#ivr"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            IVR
-          </a>
-          <a
-            href="https://dotpotit.com/key-features/contact-center-support/#email-marketing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            EmaiL Marketing
-          </a>
-          <a
-            href="https://dotpotit.com/key-features/contact-center-support/#chat-support"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Web Chat
-          </a>
-        </nav>
+       
         <nav >
-       <h2 className="footer-title">Contact  </h2>
        <div className="flex flex-col  gap-4 lg:gap-9">
           <div className="flex flex-col lg:flex-row justify-between   gap-4 lg:gap-32">
             <div>
@@ -245,9 +202,13 @@ function Footer() {
             </div>
           </div>
 
-          <div>
+         
+       </div>
+        </nav>  
+        <nav>
+        <div>
             <p>
-              <strong>Emails:</strong>{" "}
+              <strong>Email-s:</strong>{" "}
             </p>
             <p>help@dotpotit.com</p>
             <p> hr@dotpotit.com</p>
@@ -310,10 +271,9 @@ function Footer() {
               </a>{" "}
             </div>
           </div>
-       </div>
-        </nav>  
+        </nav>
       </div>
-      <div className="mt-4 flex justify-end  gap-4 pb-4 px-4">
+      <div className="mt-4 flex justify-end  gap-4 pb-4 px-4 lg:px-32">
         <p className="text-sm text-gray-200 gap-6">Member of</p>
         <Image src="https://res.cloudinary.com/dzqxgr4lr/image/upload/v1705588996/tpmhn2jtxly4rn3fqkbj.png" alt="basis logo" width={120} height={65} className="max-w-[120px]" />
       </div>

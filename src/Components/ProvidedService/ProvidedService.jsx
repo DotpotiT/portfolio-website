@@ -4,7 +4,7 @@ import { GiArtificialHive,GiDigitalTrace } from "react-icons/gi";
 import { FaPencilRuler } from "react-icons/fa";
 import { GrCloudSoftware } from "react-icons/gr";
 import { MdOutlineSupportAgent,MdConnectWithoutContact } from "react-icons/md";
-import Link from "next/link";
+import { MdAnimation } from "react-icons/md";
 function ProvidedService() {
   return (
     <div className="max-w-7xl mx-auto mt-6 p-1">
@@ -182,6 +182,19 @@ function ProvidedService() {
               experience – where communication meets excellence.
             </p>
           </div>
+        </a>
+        <a href="https://dotpotit.com/industries-we-serve/gaming/#unity-3D" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+          <MdAnimation className="text-white text-7xl pt-3 max-w-xl mx-auto" />
+
+          <div className="card-body transform -translate-y-4 items-center text-center">
+  <h2 className="card-title text-gray-300">3D Animation</h2>
+  <p className="text-gray-300 text-sm" style={{ whiteSpace: "pre-line", textAlign: "justify" }}>
+    Explore the world of immersive storytelling and visual excellence with Dotpot iT's 3D Animation services. Our expertise in 3D animation brings creativity to life, delivering captivating visual experiences that go beyond traditional communication.
+
+    At Dotpot iT, we harness the power of cutting-edge technology to elevate your projects. our 3D animation services promise to engage and leave a lasting impact. Join us in the realm of limitless possibilities, where every frame tells a unique and compelling story.
+  </p>
+</div>
+
         </a>
       </div>
     </div>

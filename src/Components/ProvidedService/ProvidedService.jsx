@@ -8,6 +8,7 @@ import { MdAnimation } from "react-icons/md";
 function ProvidedService() {
   return (
     <div className="max-w-7xl mx-auto mt-6 p-1">
+      <h2 className="text-center text-2xl font-bold text-gray-200 my-8 mt-12">Our Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  py-8 gap-5">
         <a href="https://dotpotit.com/web-development/landing-pag" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
           <div className="text-white text-7xl -mt-[3px] max-w-xl mx-auto">
@@ -29,6 +30,26 @@ function ProvidedService() {
               maintenance bolstered by SEO strategies for smooth, secure
               operations Elevate your online presence with Dotpot iT - your
               trusted partner for top-notch web solutions.
+            </p>
+          </div>
+        </a>
+        <a href="https://dotpotit.com/key-features/contact-center-support/#mobile-app" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+          <TbGoGame className="text-white text-7xl pt-3 max-w-xl mx-auto" />
+
+          <div className="card-body transform -translate-y-4 items-center text-center">
+            <h2 className="card-title text-gray-300">Mobile App  Development </h2>
+            <p
+              className="text-gray-300  text-sm "
+              style={{ whiteSpace: "pre-line", textAlign: "justify" }}
+            >
+              Dotpot iT specializes in mobile application development, bringing
+              your ideas to life in the palm of your users' hands. Our seasoned
+              team designs and creates innovative, user-friendly apps tailored
+              to meet your specific goals. Whether you're launching a startup or
+              expanding your digital presence, we craft mobile solutions that
+              captivate and engage your audience. With a focus on the latest
+              technologies and seamless user experiences, Dotpot iT is your
+              partner for turning mobile aspirations into reality.
             </p>
           </div>
         </a>
@@ -56,49 +77,6 @@ function ProvidedService() {
           </div>
         </a>
 
-        <a href="https://dotpotit.com/key-features/contact-center-support/#mobile-app" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
-          <TbGoGame className="text-white text-7xl pt-3 max-w-xl mx-auto" />
-
-          <div className="card-body transform -translate-y-4 items-center text-center">
-            <h2 className="card-title text-gray-300">Mobile Application </h2>
-            <p
-              className="text-gray-300  text-sm "
-              style={{ whiteSpace: "pre-line", textAlign: "justify" }}
-            >
-              Dotpot iT specializes in mobile application development, bringing
-              your ideas to life in the palm of your users' hands. Our seasoned
-              team designs and creates innovative, user-friendly apps tailored
-              to meet your specific goals. Whether you're launching a startup or
-              expanding your digital presence, we craft mobile solutions that
-              captivate and engage your audience. With a focus on the latest
-              technologies and seamless user experiences, Dotpot iT is your
-              partner for turning mobile aspirations into reality.
-            </p>
-          </div>
-        </a>
-
-        <a href="https://dotpotit.com/key-features/it-support/#cloud-computing" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
-          <MdOutlineSupportAgent className="text-white text-7xl pt-3 max-w-xl mx-auto" />
-
-          <div className="card-body transform -translate-y-4 items-center text-center">
-            <h2 className="card-title text-gray-300">IT Support</h2>
-            <p
-              className="text-gray-300  text-sm "
-              style={{ whiteSpace: "pre-line", textAlign: "justify" }}
-            >
-              Dotpot iT provides redefined IT support as a tailored and seamless
-              experience crafted to meet your business needs. Our expert team is
-              dedicated to delivering responsive solutions, covering everything
-              from troubleshooting to system optimization, ensuring your IT
-              infrastructure operates effortlessly. Whether you're a startup or
-              an established enterprise, Dotpot iT guarantees personalized
-              support, allowing you to navigate the complexities of technology
-              with confidence. Our commitment extends to cybersecurity,
-              providing robust protection for your digital assets. Choose Dotpot
-              iT – where your technology challenges find expert solutions.
-            </p>
-          </div>
-        </a>
         <a href="https://dotpotit.com/key-features/ai-development/#object-recognition" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
           <GiArtificialHive className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
@@ -144,6 +122,23 @@ function ProvidedService() {
             </p>
           </div>
         </a>
+        <a href="https://dotpotit.com/industries-we-serve/gaming/#unity-3D" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+          <MdAnimation className="text-white text-7xl pt-3 max-w-xl mx-auto" />
+
+          <div className="card-body transform -translate-y-4 items-center text-center">
+  <h2 className="card-title text-gray-300">3D Animation</h2>
+  <p className="text-gray-300 text-sm" style={{ whiteSpace: "pre-line", textAlign: "justify" }}>
+    Explore the world of immersive storytelling and visual excellence with Dotpot iT's 3D Animation services. Our expertise in 3D animation brings creativity to life, delivering captivating visual experiences that go beyond traditional communication.
+
+    At Dotpot iT, we harness the power of cutting-edge technology to elevate your projects. our 3D animation services promise to engage and leave a lasting impact. Join us in the realm of limitless possibilities, where every frame tells a unique and compelling story.
+  </p>
+</div>
+
+        </a>
+      
+       
+
+     
         <a href="https://dotpotit.com/" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
           <GiDigitalTrace className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
@@ -183,18 +178,27 @@ function ProvidedService() {
             </p>
           </div>
         </a>
-        <a href="https://dotpotit.com/industries-we-serve/gaming/#unity-3D" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
-          <MdAnimation className="text-white text-7xl pt-3 max-w-xl mx-auto" />
+        <a href="https://dotpotit.com/key-features/it-support/#cloud-computing" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+          <MdOutlineSupportAgent className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">
-  <h2 className="card-title text-gray-300">3D Animation</h2>
-  <p className="text-gray-300 text-sm" style={{ whiteSpace: "pre-line", textAlign: "justify" }}>
-    Explore the world of immersive storytelling and visual excellence with Dotpot iT's 3D Animation services. Our expertise in 3D animation brings creativity to life, delivering captivating visual experiences that go beyond traditional communication.
-
-    At Dotpot iT, we harness the power of cutting-edge technology to elevate your projects. our 3D animation services promise to engage and leave a lasting impact. Join us in the realm of limitless possibilities, where every frame tells a unique and compelling story.
-  </p>
-</div>
-
+            <h2 className="card-title text-gray-300">IT Support</h2>
+            <p
+              className="text-gray-300  text-sm "
+              style={{ whiteSpace: "pre-line", textAlign: "justify" }}
+            >
+              Dotpot iT provides redefined IT support as a tailored and seamless
+              experience crafted to meet your business needs. Our expert team is
+              dedicated to delivering responsive solutions, covering everything
+              from troubleshooting to system optimization, ensuring your IT
+              infrastructure operates effortlessly. Whether you're a startup or
+              an established enterprise, Dotpot iT guarantees personalized
+              support, allowing you to navigate the complexities of technology
+              with confidence. Our commitment extends to cybersecurity,
+              providing robust protection for your digital assets. Choose Dotpot
+              iT – where your technology challenges find expert solutions.
+            </p>
+          </div>
         </a>
       </div>
     </div>

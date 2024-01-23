@@ -88,14 +88,14 @@ button:hover .liquid{
   color: #fff;
   font-size: 12px;
   font-family: Arial;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   z-index: 1;
   text-align: center;
 }
 
 button .liquids {
   position: absolute;
-  top: -80px;
+  top: -70px;
   left: 0;
   width: 170px;
   height: 200px;
@@ -135,10 +135,11 @@ button:hover .liquids {
 /* Media Query for smaller screens (adjust the max-width as needed) */
 @media (max-width: 320px) {
   .nav {
-    width: 50%; /* Make the navigation take the full width */
-    font-size: 2px;
+    width: 35%; /* Make the navigation take the full width */
+    font-size: 1px;
     z-index: 1;
     text-align: center;
+    height:40%
   
   }
 
@@ -454,40 +455,55 @@ button:hover .liquids {
   transform: translateY(-75%);
 }
 
-/* CSS */
+
 
 /* TeamMembers.css */
+.scroller {
+  max-width: 60%;
+}
 
-.slideshow {
+.scroller__inner {
+  padding-block: 1rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-top: calc(50vh - 25vh);
+  flex-direction: row;
+  gap: 4rem;
 }
 
-.slide {
-  width: 23vw;
-  max-width: 23vw;
-  margin-right: 4vw;
-  margin-bottom: 4vh;
-  text-align: center;
-  height: 20vh;
-  background-color: red;
-  border-radius: 6px;
-  color: #fff;
-  font-family: 'Helvetica Neue', helvetica, arial;
-  font-size: 24px;
-  line-height: 20vh;
+
+.scroller[data-animated="true"] {
+  overflow: hidden;
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
 }
 
-/* Add this for responsiveness */
-@media (max-width: 768px) {
-  .slide {
-    width: 100%; /* Full width on smaller screens */
-    max-width: 100%;
-    margin-right: 0;
+.scroller[data-animated="true"] .scroller__inner {
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: scroll var(--_animation-duration, 400s)
+    var(--_animation-direction, forwards) linear infinite;
+}
+
+.scroller[data-speed="fast"] {
+  --_animation-duration: 100s; /* You can adjust this value */
+}
+
+.scroller[data-speed="slow"] {
+  --_animation-duration: 120s; /* You can adjust this value */
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 0.5rem));
   }
 }
+
 
 
 

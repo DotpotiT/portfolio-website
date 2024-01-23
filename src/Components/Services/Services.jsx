@@ -3,14 +3,14 @@ import Link from "next/link";
 
 const services = [
   { name: "Web Development", link: "https://dotpotit.com/web-development/landing-page" },
+  { name: "Mobile App Development", link: "https://dotpotit.com/key-features/contact-center-support/#mobile-app" },
   { name: "Software Development", link: "https://dotpotit.com/web-development/landing-page" },
-  { name: "Mobile Application", link: "https://dotpotit.com/key-features/contact-center-support/#mobile-app" },
-  { name: "UI/UX Design", link: "https://dotpotit.com/industries-we-serve/gaming/#unity-3D" },
-  { name: "Digital Marketing", link: "https://dotpotit.com/" },
   { name: "AI Development", link: "https://dotpotit.com/key-features/ai-development/#object-recognition" },
-  { name: "Contact Center", link: "https://dotpotit.com/contact" },
-  { name: "Cyber Security", link: "https://dotpotit.com/key-features/it-support/#cybersecurity" },
+  { name: "UI/UX Design", link: "https://dotpotit.com/industries-we-serve/gaming/#unity-3D" },
   { name: "3D Animation", link: "https://dotpotit.com/industries-we-serve/gaming/#unity-3D" },
+  { name: "Digital Marketing", link: "https://dotpotit.com/" },
+  { name: "Contact Center", link: "https://dotpotit.com/contact" },
+  { name: "IT Support", link: "https://dotpotit.com/key-features/it-support/#cloud-computing" },
 ];
 
 function Services() {

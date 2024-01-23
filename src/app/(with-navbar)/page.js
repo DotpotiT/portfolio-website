@@ -13,6 +13,7 @@ import Services from "@/Components/Services/Services";
 import TeamMembers from "@/Components/TeamMembers/TeamMembers";
 import Testimonials from "@/Components/Testimonials/Testimonials";
 import StarsCanvas from "@/Components/ThemeScene/ThemeScene";
+import WhyChooseUs from "@/Components/WhyChooseUs/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <ProvidedService />
         <Testimonials />
         <Faq />
+        <WhyChooseUs/>
         <Ceo />
 <TeamMembers/>
         <Partners />

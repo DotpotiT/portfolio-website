@@ -135,11 +135,12 @@ button:hover .liquids {
 /* Media Query for smaller screens (adjust the max-width as needed) */
 @media (max-width: 320px) {
   .nav {
-    width: 35%; /* Make the navigation take the full width */
-    font-size: 1px;
+    width: 40%; /* Make the navigation take the full width */
+    font-size: -1px;
+    padding: 15px 2px;
     z-index: 1;
     text-align: center;
-    height:40%
+    
   
   }
 
@@ -147,7 +148,7 @@ button:hover .liquids {
     width: 100%; /* Make the liquid element take the full width */
     height: 150px; /* Adjust the height as needed */
     position: absolute;
-    top: -80px;
+    top: -30px;
     left: 0;
   
     background: #4973ff;
@@ -182,7 +183,6 @@ button:hover .liquids {
   top: -120px;
 }
 }
-
 @keyframes animate {
   0% {
     transform: translate(-50%, -75%) rotate(0deg);
@@ -465,9 +465,9 @@ button:hover .liquids {
 .scroller__inner {
   padding-block: 1rem;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
   gap: 4rem;
+ 
 }
 
 

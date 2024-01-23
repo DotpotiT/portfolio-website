@@ -34,12 +34,12 @@ const teamMembers = [
   },
   {
     name: "Imtij Bin Aoual",
-    role: "Sr. Mobile Application Developer",
+    role: "Mobile Application Developer",
     imageSrc: "https://res.cloudinary.com/dzqxgr4lr/image/upload/v1705939532/bg6ien9ri6rnbcyccflx.jpg",
   },
   {
     name: "Tawfik",
-    role: "Jr. Mobile Application Developer",
+    role: "Mobile Application Developer",
     imageSrc: "https://res.cloudinary.com/dzqxgr4lr/image/upload/v1706002585/tawfiq_grfhkg.jpg",
   },
   {
@@ -96,12 +96,12 @@ const teamMembers = [
   },
   {
     name: "Taief Hasan",
-    role: "Software Quality Assurance Engineer",
+    role: "Software Quality Engineer",
     imageSrc: "https://res.cloudinary.com/dzqxgr4lr/image/upload/v1705939534/mozwgjdjxo6wns8qwagp.jpg",
   },
   {
     name: "Ruhul Amin",
-    role: "Sr. Mobile Application Developer",
+    role: "Mobile Application Developer",
     imageSrc: "https://res.cloudinary.com/dzqxgr4lr/image/upload/v1705939533/tpglcccuxz3kegbni96k.jpg",
   },
   {
@@ -145,7 +145,7 @@ function TeamMembers() {
   return (
     <div className="mt-24">
       <h1
-        className="text-2xl font-bold text-gray-300"
+        className="text-2xl font-bold text-gray-400"
         style={{ textAlign: "center" }}
       >
         Our Team Members
@@ -156,7 +156,7 @@ function TeamMembers() {
         data-direction="right"
         data-speed="slow"
       >
-        <div className="scroller__inner flex flex-col justify-center items-center">
+        <div className="scroller__inner  flex flex-col justify-center items-center">
           {teamMembers.map((member, index) => (
             <div key={index} className="flex flex-col text-center">
               <div className="avatar ">

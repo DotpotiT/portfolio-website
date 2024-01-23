@@ -3,7 +3,7 @@ import React from 'react'
 function WhyChooseUs() {
   return (
     <div className='mb-6 lg:mb-16 text-gray-400'>
-      <h2 className='text-2xl font-bold text-center text-gray-300 mb-11 '>Why Choose Us?</h2>
+      <h2 className='text-2xl font-bold text-center text-gray-400 mb-11 '>Why Choose Us?</h2>
       <div className='flex flex-col md:flex-row lg:flex-row justify-between max-w-7xl mx-auto gap-4'>
     <div className="card w-full lg:w-96  shadow-sm">
   <figure className="px-10 pt-10">

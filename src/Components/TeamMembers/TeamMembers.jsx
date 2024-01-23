@@ -35,7 +35,7 @@ const teamMembers = [
   {
     name: "Imtij Bin Aoual",
     role: "Sr. Mobile Application Developer",
-    imageSrc: " https://res.cloudinary.com/dzqxgr4lr/image/upload/v1705939532/bg6ien9ri6rnbcyccflx.jpg",
+    imageSrc: "https://res.cloudinary.com/dzqxgr4lr/image/upload/v1705939532/bg6ien9ri6rnbcyccflx.jpg",
   },
   {
     name: "Tawfik",

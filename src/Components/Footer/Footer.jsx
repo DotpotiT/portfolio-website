@@ -166,7 +166,7 @@ function Footer() {
        <div className="flex flex-col  gap-4 lg:gap-9">
           <div className="flex flex-col lg:flex-row justify-between   gap-4 lg:gap-32">
             <div>
-              <h2>Dotpot iT Ltd.</h2>
+              <h2>Dotpot iT </h2>
               <a
                 href="https://www.google.com/maps/place/Dotpot+iT+Ltd/@51.5148525,-0.123525,15z/data=!4m6!3m5!1s0x487605a02838cbed:0xf63b335f5805893f!8m2!3d51.5148525!4d-0.123525!16s%2Fg%2F11v6sspb2h?hl=en&entry=ttuhttps://www.google.com/maps/uv?pb=!1s0x487605a02838cbed%3A0xf63b335f5805893f!3m1!7e115!4s%2Fmaps%2Fplace%2FDotpot%2BiT%2BLtd%2F%4051.5146962%2C-0.1235932%2C3a%2C75y%2C15.18h%2C90t%2Fdata%3D*213m4*211e1*213m2*211s9zvNB_8TjEOW7m15S4GVpg*212e0*214m2*213m1*211s0x487605a02838cbed%3A0xf63b335f5805893f%3Fsa%3DX%26ved%3D2ahUKEwjalp_imPKAAxWrT2wGHfTuAbEQpx96BAg4EAA%26hl%3Den!5sDotpot%20iT%20Ltd%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e2!2s9zvNB_8TjEOW7m15S4GVpg&hl=en&sa=X&ved=2ahUKEwjalp_imPKAAxWrT2wGHfTuAbEQpx96BAhGEA0"
                 target="_blank"
@@ -182,7 +182,7 @@ function Footer() {
             </div>
 
             <div>
-              <p>Dotpot iT Ltd.</p>
+              <p>Dotpot iT </p>
               <a
                 href="https://www.google.com/maps/place/Dotpot+iT/@23.8098024,90.3654215,17z/data=!3m1!4b1!4m6!3m5!1s0x3755c154f4caa0ad:0x31fecdb3c5351d8d!8m2!3d23.8097975!4d90.3679964!16s%2Fg%2F11k9f3pm3k?entry=ttu"
                 target="_blank"
@@ -280,7 +280,7 @@ function Footer() {
         <Image src="https://res.cloudinary.com/dzqxgr4lr/image/upload/v1705588996/tpmhn2jtxly4rn3fqkbj.png" alt="basis logo" width={120} height={65} className="max-w-[120px]" />
       </div>
       <p className="text-sm lg:text-md text-white mt-2 text-center">
-        © 2023 Dotpot iT Ltd. All rights reserved.
+        © 2024 Dotpot iT . All rights reserved.
       </p>
       <div className="text-center pb-5 text-white"></div>
     </div>

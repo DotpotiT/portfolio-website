@@ -171,8 +171,8 @@ function TeamMembers() {
 </div>
            
             
-              <h2 className="text-gray-300 font-bold mt-3">{member.name}</h2>
-              <p className="text-gray-300 font-bold">{member.role}</p>
+              <h2 className="text-gray-300 font-bold  mt-3">{member.name}</h2>
+              <p className="text-gray-300 font-semibold text-sm">{member.role}</p>
             </div>
           ))}
         </div>

@@ -31,11 +31,11 @@ function Footer() {
       </div>
       <div
         className="flex  flex-row flex-wrap lg:flex-row   gap-5 justify-between  p-10 text-white px-4 lg:px-[120px] bg-cover bg-center"
-        style={{
-          background: `url('https://loading.io/assets/img/c/bg/cloud-dark.svg') no-repeat center/cover`,
-          opacity: 1,
-          visibility: "visible",
-        }}
+        // style={{
+        //   background: `url('https://loading.io/assets/img/c/bg/cloud-dark.svg') no-repeat center/cover`,
+        //   opacity: 1,
+        //   visibility: "visible",
+        // }}
       >
     
 

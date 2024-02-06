@@ -1,6 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
-import { FaEye, FaGithub } from "react-icons/fa6";
+import { FaEye} from "react-icons/fa6";
 
 function Products() {
   return (
@@ -9,8 +10,11 @@ function Products() {
         Our Recent Projects
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 px-2 md:px-10 lg:px-20">
-        <div
-          className="rounded-lg shadow-md  shadow-primary/40 hover:shadow-xl hover:shadow-primary/40 overflow-hidden bg-base-100/50 aos-init aos-animate"
+        <Link href="https://www.rmjautos.com/"
+          
+          
+        >
+          <div className="rounded-lg shadow-md  shadow-primary/40 hover:shadow-xl hover:shadow-primary/40 overflow-hidden bg-base-100/50 aos-init aos-animate"
           style={{
             position: "relative",
             cursor: "pointer",
@@ -22,7 +26,7 @@ function Products() {
           onMouseLeave={() => {
             document.getElementById("rmjAutosDescription").style.opacity = "0";
           }}
-        >
+          >
           <div className="relative w-full h-60 overflow-hidden">
             <div className="h-max card">
               <Image
@@ -38,24 +42,18 @@ function Products() {
             <h2 className="text-gradient-primary text-center font-bold text-2xl mx-auto text-blue-400 pt-3">
               RMJ AUTOS
             </h2>
-            <div
-              id="rmjAutosDescription"
-              style={{ opacity: 0, transition: "opacity 0.3s ease" }}
-              className="flex text-center p-1 relative items-center justify-center gap-3 description"
-            >
-              <p className="text-lg text-semibold text-white">
+         
+              <p className="text-lg text-semibold flex justify-center  text-neutral-content pt-2 pb-3">
                 Web Application
               </p>
-              <a   alt="RMJ Autos Project"
-                href="https://www.rmjautos.com/"
-                className="text-2xl text-purple-600" aria-label="project live site link"
-              >
-                <FaEye />
-              </a>
-            </div>
+           
+            <div  id="rmjAutosDescription"></div>
+           
           </div>
-        </div>
-
+          </div>
+         
+        </Link>
+        <Link href='https://mypremo.com/'>
         <div
           className="rounded-lg shadow-md shadow-primary/40 hover:shadow-xl hover:shadow-primary/40 overflow-hidden bg-base-100/50 aos-init aos-animate"
           style={{
@@ -85,25 +83,19 @@ function Products() {
             <h2 className="text-gradient-primary text-center font-bold text-2xl mx-auto text-blue-400 pt-3">
               Premo
             </h2>
-            <div
-              id="premoDescription"
-              style={{ opacity: 0, transition: "opacity 0.3s ease" }}
-              className="flex text-center p-3 relative items-center justify-center gap-3 description"
-            >
-              <p className="text-lg text-semibold text-white">
+         
+              <p className="text-lg text-semibold flex justify-center text-neutral-content pt-2 pb-3">
                 Mobile Application
               </p>
-              <a   alt="Premo Project"
-                href="https://www.rmjautos.com/"
-                className="text-2xl text-purple-600" aria-label="project live site link"
-              >
-                <FaEye />
-              </a>
-            </div>
+              <div id="premoDescription"></div>
+           
           </div>
         </div>
+        </Link>
+       
 
-        <div
+       <Link href="https://flipper.com.bd">
+       <div
           className="rounded-lg shadow-md shadow-primary/40 hover:shadow-xl hover:shadow-primary/40 overflow-hidden bg-base-100/50 aos-init aos-animate"
           style={{
             position: "relative",
@@ -132,24 +124,22 @@ function Products() {
             <h2 className="text-gradient-primary text-center font-bold text-2xl mx-auto text-blue-400 pt-3">
               Flipper
             </h2>
-            <div
-              id="flipperDescription"
-              style={{ opacity: 0, transition: "opacity 0.3s ease" }}
-              className="flex text-center p-1 relative items-center justify-center gap-3 description"
-            >
-              <p className="text-lg text-semibold text-white">
+          
+              <p className="text-lg text-semibold flex justify-center text-neutral-content pt-2 pb-3">
                 Web Application
               </p>
-              <a
-                href="https://flipper.com.bd"
-                className="text-2xl text-purple-600" aria-label="project live site link"   alt="Flipper Project"
-              >
-                <FaEye />
-              </a>
-            </div>
+             
+              <div  id="flipperDescription"></div>
+          
           </div>
         </div>
-        <div
+       </Link>
+
+               
+               
+       <Link   href="https://www.selectelwireless.com/"
+ >
+       <div
           className="rounded-lg shadow-md shadow-primary/40 hover:shadow-xl hover:shadow-primary/40 overflow-hidden bg-base-100/50 aos-init aos-animate"
           style={{
             position: "relative",
@@ -178,25 +168,20 @@ function Products() {
             <h2 className="text-gradient-primary text-center font-bold text-2xl mx-auto text-blue-400 pt-3">
               Selectel Wireless
             </h2>
-            <div
-              id="wireless"
-              style={{ opacity: 0, transition: "opacity 0.3s ease" }}
-              className="flex text-center p-1 relative items-center justify-center gap-3 description"
-            >
-              <p className="text-lg text-semibold text-white">
+         
+              <p className="text-lg text-semibold flex justify-center pt-2 pb-3 text-neutral-content">
                 Web Application
               </p>
-              <a
-                href="https://www.selectelwireless.com/"
-                className="text-2xl text-purple-600" aria-label="project live site link" alt="selectelwireless project"
-              >
-                <FaEye />
-              </a>
-            </div>
+             
+              <div  id="wireless" ></div>
+              
+        
           </div>
         </div>
+       </Link>
 
-        <div
+      <Link href="https://noirbd.com/">
+      <div
           className="rounded-lg shadow-md shadow-primary/40 hover:shadow-xl hover:shadow-primary/40 overflow-hidden bg-base-100/50 aos-init aos-animate"
           style={{
             position: "relative",
@@ -225,22 +210,19 @@ function Products() {
             <h2 className="text-gradient-primary text-center font-bold text-2xl mx-auto text-blue-400 pt-3">
               Noir
             </h2>
-            <div
-              id="noirDescription"
-              style={{ opacity: 0, transition: "opacity 0.3s ease" }}
-              className="flex text-center p-1 relative items-center justify-center gap-3 description"
-            >
-              <p className="text-lg text-semibold text-white">
+           
+              <p className="text-lg text-semibold text-neutral-content  flex justify-center pt-2 pb-3">
                 Web Application
               </p>
-              <a href="https://noirbd.com/" className="text-2xl text-purple-600" aria-label="project live site link" alt="noir" >
-                <FaEye />
-              </a>
-            </div>
+              
+              <div id="noirDescription" ></div>
+      
           </div>
         </div>
+      </Link>
 
-        <div
+       <Link href="https://www.forefront-bd.com/" >
+       <div
           className="rounded-lg shadow-md shadow-primary/40 hover:shadow-xl hover:shadow-primary/40 overflow-hidden bg-base-100/50 aos-init aos-animate"
           style={{
             position: "relative",
@@ -269,25 +251,17 @@ function Products() {
             <h2 className="text-gradient-primary text-center font-bold text-2xl mx-auto text-blue-400 pt-3">
               ForeFront
             </h2>
-            <div
-              id="forefrontDescription"
-              style={{ opacity: 0, transition: "opacity 0.3s ease" }}
-              className="flex text-center p-1 relative items-center justify-center gap-3 description"
-            >
-              <p className="text-lg text-semibold text-white">
+           
+              <p className="text-lg text-semibold flex justify-center text-neutral-content pt-2 pb-3">
                 Web Application
               </p>
-              <a
-                href="https://www.forefront-bd.com/"
-                className="text-2xl text-purple-600" aria-label="project live site link" alt="Forefont"
-              >
-                <FaEye />
-              </a>
-            </div>
+         <div  id="forefrontDescription" ></div>
           </div>
         </div>
+       </Link>
 
-        <div
+      <Link href="https://authentikabd.com/">
+      <div
           className="rounded-lg shadow-md shadow-primary/40 hover:shadow-xl hover:shadow-primary/40 overflow-hidden aos-init aos-animate"
           style={{
             position: "relative",
@@ -317,24 +291,19 @@ function Products() {
               {" "}
               Authentika
             </h2>
-            <div
-              id="authentika"
-              style={{ opacity: 0, transition: "opacity 0.3s ease" }}
-              className="flex text-center p-1 relative items-center justify-center gap-3 description"
-            >
-              <p className="text-lg text-semibold text-white">
+        
+              <p className="text-lg text-semibold text-neutral-content flex justify-center pt-2 pb-3">
                 Web Application
               </p>
-              <a
-                href="https://authentikabd.com/"
-                className="text-2xl text-purple-600" aria-label="project live site link" alt="Authentika"
-              >
-                <FaEye />
-              </a>
-            </div>
+             <div   id="authentika"></div>
+       
           </div>
         </div>
-        <div
+      </Link>
+       
+      <Link    href="https://evincegroupbd.com/"
+          >
+          <div
           className="rounded-lg shadow-md shadow-primary/40 hover:shadow-xl hover:shadow-primary/40 overflow-hidden aos-init aos-animate"
           style={{
             position: "relative",
@@ -363,24 +332,21 @@ function Products() {
             <h2 className="text-gradient-primary text-center font-bold text-2xl mx-auto text-blue-400 pt-3  ">
               Evince Group BD
             </h2>
-            <div
-              id="evincegroupbd"
-              style={{ opacity: 0, transition: "opacity 0.3s ease" }}
-              className="flex text-center p-1 relative items-center justify-center gap-3 description"
-            >
-              <p className="text-lg text-semibold text-white">
+           
+              <p className="text-lg text-semibold text-neutral-content flex justify-center pt-2 pb-3">
                 Web Application
-              </p>
-              <a
-                href="https://evincegroupbd.com/"
-                className="text-2xl text-purple-600" aria-label="project live site link" alt="evincegroupbd"
-              >
-                <FaEye />
-              </a>
+              </p> <div
+              id="evincegroupbd"
+             
+            >
+            
             </div>
           </div>
         </div>
-        <div
+          </Link>
+
+     <Link href="https://luliz.com/">
+     <div
           className="rounded-lg shadow-md shadow-primary/40 hover:shadow-xl hover:shadow-primary/40 overflow-hidden aos-init aos-animate"
           style={{
             position: "relative",
@@ -406,23 +372,21 @@ function Products() {
             </div>
           </div>
           <div>
-            <h2 className="text-gradient-primary text-center font-bold text-2xl mx-auto text-blue-400 pt-3  pt-3">
+            <h2 className="text-gradient-primary text-center font-bold text-2xl mx-auto text-blue-400   pt-3">
               Luliz
             </h2>
-            <div
-              id="description"
-              style={{ opacity: 0, transition: "opacity 0.3s ease" }}
-              className="flex text-center p-1 relative items-center justify-center gap-3 description"
-            >
-              <p className="text-lg text-semibold text-white">
+          
+              <p className="text-lg text-semibold text-neutral-content flex justify-center pt-2 pb-3">
                 Web Application
               </p>
-              <a href="https://luliz.com/" className="text-2xl text-purple-600" aria-label="project live site link" alt=" Luliz">
-                <FaEye />
-              </a>
+              <div
+              id="description"
+              
+            >
             </div>
           </div>
         </div>
+     </Link>
       </div>
     </div>
   );

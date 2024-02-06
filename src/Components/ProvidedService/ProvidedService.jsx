@@ -3,8 +3,9 @@ import { TbBrandWebflow ,TbGoGame } from "react-icons/tb";
 import { GiArtificialHive,GiDigitalTrace } from "react-icons/gi";
 import { FaPencilRuler } from "react-icons/fa";
 import { GrCloudSoftware } from "react-icons/gr";
-import { MdOutlineSupportAgent,MdConnectWithoutContact } from "react-icons/md";
+import { MdConnectWithoutContact } from "react-icons/md";
 import { MdAnimation } from "react-icons/md";
+import { SiSpringsecurity } from "react-icons/si";
 function ProvidedService() {
   return (
     <div className="max-w-7xl mx-auto mt-6 p-1">
@@ -179,24 +180,15 @@ function ProvidedService() {
           </div>
         </a>
         <a href="https://dotpotit.com/key-features/it-support/#cloud-computing" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
-          <MdOutlineSupportAgent className="text-white text-7xl pt-3 max-w-xl mx-auto" />
+        <SiSpringsecurity className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">
-            <h2 className="card-title text-gray-300">IT Support</h2>
+            <h2 className="card-title text-gray-300">Cyber Security</h2>
             <p
               className="text-gray-300  text-sm "
               style={{ whiteSpace: "pre-line", textAlign: "justify" }}
             >
-              Dotpot iT provides redefined IT support as a tailored and seamless
-              experience crafted to meet your business needs. Our expert team is
-              dedicated to delivering responsive solutions, covering everything
-              from troubleshooting to system optimization, ensuring your IT
-              infrastructure operates effortlessly. Whether you're a startup or
-              an established enterprise, Dotpot iT guarantees personalized
-              support, allowing you to navigate the complexities of technology
-              with confidence. Our commitment extends to cybersecurity,
-              providing robust protection for your digital assets. Choose Dotpot
-              iT – where your technology challenges find expert solutions.
+              We help you keep your computers, networks, and data safe from hackers and other dangers. We check for any weak spots and fix them with firewalls and other tools. We also protect your private and important information with codes and passwords. We teach you how to avoid falling for tricks that hackers use to get your information. We watch over your systems all the time and alert you if something goes wrong. We also help you follow the rules and laws for cybersecurity.
             </p>
           </div>
         </a>

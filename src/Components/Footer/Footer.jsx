@@ -15,7 +15,7 @@ import Image from "next/image";
 function Footer() {
   return (
     <div className="mt-16">
-      <div className="footer text-white px-2 lg:px-[120px] border-base-300">
+      <div className="footer text-neutral-content px-2 lg:px-[120px] border-base-300">
         <aside className="items-center grid-flow-row">
           <h1 className="w-[25vh] lg:w-[250px] font-bold transform translate-y-5">
             <a href="https://dotpotit.com/" target="_blank" rel="noopener noreferrer"> <Image
@@ -30,12 +30,8 @@ function Footer() {
         </aside>
       </div>
       <div
-        className="flex  flex-row flex-wrap lg:flex-row   gap-5 justify-between  p-10 text-white px-4 lg:px-[120px] bg-cover bg-center"
-        // style={{
-        //   background: `url('https://loading.io/assets/img/c/bg/cloud-dark.svg') no-repeat center/cover`,
-        //   opacity: 1,
-        //   visibility: "visible",
-        // }}
+        className="flex  flex-row flex-wrap lg:flex-row   gap-5 justify-between  p-10 text-neutral-content px-4 lg:px-[120px] bg-cover bg-center"
+  
       >
     
 
@@ -158,7 +154,7 @@ function Footer() {
             rel="noopener noreferrer"
           >
             {" "}
-            IT Support
+            Cyber Security
           </a>
         </nav>
        
@@ -176,8 +172,8 @@ function Footer() {
                 <p>United Kingdom</p>
               </a>
               <p>
-                <strong>Phone: </strong>
-                <a href="+44 7441 427459"> +44 7441 427459 </a>
+                Phone:
+                <a href="+44 7441 427459" className="ml-1 lg:ml-2"> +44 7441 427459 </a>
               </p>
             </div>
 
@@ -192,11 +188,11 @@ function Footer() {
                 <p>Dhaka Bangladesh</p>
               </a>
               <p>
-                <strong>Phone:</strong>
+                Phone:
                 <a
                   href="+88 01817 176192"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer" className="ml-1 lg:ml-2"
                 >
                   +880 1817 176192
                 </a>
@@ -210,7 +206,7 @@ function Footer() {
         <nav>
         <div>
             <p>
-              <strong>E-mails:</strong>{" "}
+            E-mails:{" "}
             </p>
             <p>help@dotpotit.com</p>
             <p> hr@dotpotit.com</p>
@@ -279,10 +275,10 @@ function Footer() {
         <p className="text-sm text-gray-200 gap-6">Member of</p>
         <Image src="https://res.cloudinary.com/dzqxgr4lr/image/upload/v1705588996/tpmhn2jtxly4rn3fqkbj.png" alt="basis logo" width={120} height={65} className="max-w-[120px]" />
       </div>
-      <p className="text-sm lg:text-md text-white mt-2 text-center">
+      <p className="text-sm lg:text-md text-neutral-content mt-2 text-center">
         © 2024 Dotpot iT . All rights reserved.
       </p>
-      <div className="text-center pb-5 text-white"></div>
+      <div className="text-center pb-5 text-neutral-content"></div>
     </div>
   );
 }

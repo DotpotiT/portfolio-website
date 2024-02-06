@@ -16,7 +16,7 @@ function Ceo() {
       />
       <div>
         <h4 className="text-blue-400 text-lg">Message From CEO & Founder  </h4>
-        <h2 className="text-2xl text-white">A Warm Hello to all,</h2>
+        <h2 className="text-2xl text-neutral-content">A Warm Hello to all,</h2>
         <p className="text-gray-400"   style={{ whiteSpace: "pre-line", textAlign: "justify" }}>
           As the CEO & Founder of Dotpot iT, I spearhead a talented team
           delivering innovative IT solutions across diverse sectors. With over a
@@ -47,7 +47,7 @@ function Ceo() {
             className="rounded-full border-dashed border-2 p-2"
             aria-label="Email Us"
           >
-            <MdOutlineEmail className="rounded-full text-white text-4xl p-2" />
+            <MdOutlineEmail className="rounded-full text-neutral-content text-4xl p-2" />
           </a>
 
           <a
@@ -55,7 +55,7 @@ function Ceo() {
             className="rounded-full border-dashed border-2 p-2"
             aria-label="Connect with us on LinkedIn" target="_blank"
           >
-            <FaLinkedin className="rounded-full text-white text-4xl  p-2" />
+            <FaLinkedin className="rounded-full text-neutral-content text-4xl  p-2" />
           </a>
         </div>
       </div>

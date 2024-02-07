@@ -6,12 +6,12 @@ function About() {
     <div className="max-w-7xl mx-auto flex mb-7 transform lg:-translate-y-32">
       <div className="px-1">
         <div className="hero-content flex-col lg:flex-row max-w-7xl mx-auto  gap-5">
-          <Image
+          <Image 
             width={700}
             height={600}
             src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1704383070/dkzystq9alhecixuhafi.png"
             alt="about"
-            className=" w-[45vh] lg:max-w-xl  rounded-lg shadow-2xl"
+            className=" w-[45vh] lg:max-w-xl  rounded-lg shadow-2xl z-10"
           />
           <div>
             <h1 className="text-3xl font-bold text-gray-400">About Company!</h1>

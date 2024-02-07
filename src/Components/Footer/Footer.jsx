@@ -103,7 +103,7 @@ function Footer() {
        
         
           <a
-            href="https://dotpotit.com/key-features/mobile-app-development"
+            href="https://dotpotit.com/web-development/custom-website"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -111,7 +111,7 @@ function Footer() {
           </a>
       
           <a
-            href="https://dotpotit.com/key-features/ai-development/#object-recognition"
+            href="https://dotpotit.com/key-features/ai-development/#data-forecasting"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -142,14 +142,14 @@ function Footer() {
           </a>
          
           <a
-            href="https://dotpotit.com/contact"
+            href="https://dotpotit.com/key-features/contact-center-support/#training"
             target="_blank"
             rel="noopener noreferrer"
           >
            Contact Center
           </a>
           <a
-            href="https://dotpotit.com/key-features/it-support/#cloud-computing"
+            href="https://dotpotit.com/key-features/it-support/#cybersecurity"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -173,7 +173,7 @@ function Footer() {
               </a>
               <p>
                 Phone:
-                <a href="+44 7441 427459" className="ml-1 lg:ml-2"> +44 7441 427459 </a>
+                <a href="+44 7441 427459" className="ml-1">+44 7441 427459 </a>
               </p>
             </div>
 
@@ -192,9 +192,8 @@ function Footer() {
                 <a
                   href="+88 01817 176192"
                   target="_blank"
-                  rel="noopener noreferrer" className="ml-1 lg:ml-2"
-                >
-                  +880 1817 176192
+                  rel="noopener noreferrer" className="ml-1"
+                >+880 1817 176192
                 </a>
               </p>
             </div>
@@ -252,7 +251,8 @@ function Footer() {
                 <FaFacebook className="text-xl" />{" "}
               </a>{" "}
               <a
-                href="https://www.instagram.com/dotpotit/"
+                href="https://www.youtube.com/@dotpotit"
+
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -260,7 +260,8 @@ function Footer() {
                 <FaYoutube className="text-xl" />{" "}
               </a>{" "}
               <a
-                href="https://www.youtube.com/@dotpotit"
+                href="https://www.instagram.com/dotpotit/"
+
                 target="_blank"
                 rel="noopener noreferrer"
               >

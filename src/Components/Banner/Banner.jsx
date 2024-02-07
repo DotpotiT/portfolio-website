@@ -23,7 +23,7 @@ function Banner() {
     <div>
       <div className="max-w-7xl hero  mx-auto min-h-screen px-2 ">
         <div className=" flex flex-col-reverse lg:flex-row-reverse text-white justify-between gap-4 lg:gap-32">
-          <Image
+          <Image className="z-10"
             width={400}
             height={300} 
             src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1704366008/b-removebg-preview_nsrxcs.png"

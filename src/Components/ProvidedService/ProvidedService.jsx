@@ -11,7 +11,7 @@ function ProvidedService() {
     <div className="max-w-7xl mx-auto mt-6 p-1">
       <h2 className="text-center text-2xl font-bold text-gray-400 my-8 mt-12">Our Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  py-8 gap-5">
-        <a href="https://dotpotit.com/web-development/landing-page" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+        <a href="https://dotpotit.com/web-development/landing-page" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 shadow-xl border-t-2 border-t-rose-200">
           <div className="text-white text-7xl -mt-[3px] max-w-xl mx-auto">
             <TbBrandWebflow />
           </div>
@@ -34,7 +34,7 @@ function ProvidedService() {
             </p>
           </div>
         </a>
-        <a href="https://dotpotit.com/key-features/contact-center-support/#mobile-app" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+        <a href="https://dotpotit.com/key-features/contact-center-support/#mobile-app" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 shadow-xl border-t-2 border-t-rose-200">
           <TbGoGame className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">
@@ -54,7 +54,7 @@ function ProvidedService() {
             </p>
           </div>
         </a>
-        <a href="https://dotpotit.com/web-development/landing-page" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+        <a href="https://dotpotit.com/web-development/custom-website" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 shadow-xl border-t-2 border-t-rose-200">
           <GrCloudSoftware className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">
@@ -66,7 +66,7 @@ function ProvidedService() {
               Dotpot iT leads the way in software development, crafting
               solutions that redefine possibilities. With a focus on innovation,
               we create custom software tailored to your business requirements.
-              Our skilled team utilizes the latest technologies to deliver
+              Our skilled team utilizes the latest technologies to deliver  
               robust, scalable, and user-friendly applications. From concept to
               implementation, we prioritize efficiency and excellence. Explore
               our portfolio of successful projects spanning diverse industries,
@@ -78,7 +78,7 @@ function ProvidedService() {
           </div>
         </a>
 
-        <a href="https://dotpotit.com/key-features/ai-development/#object-recognition" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+        <a href="https://dotpotit.com/key-features/ai-development/#data-forecasting" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 shadow-xl border-t-2 border-t-rose-200">
           <GiArtificialHive className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">
@@ -100,7 +100,7 @@ function ProvidedService() {
           </div>
         </a>
 
-        <a href="https://dotpotit.com/" target="_blank" className="card w-[40vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200 ">
+        <a href="https://dotpotit.com/" target="_blank" className="card w-[40vh] md:w-[48vh] mx-auto lg:w-96 shadow-xl border-t-2 border-t-rose-200 ">
           <FaPencilRuler className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">
@@ -123,7 +123,7 @@ function ProvidedService() {
             </p>
           </div>
         </a>
-        <a href="https://dotpotit.com/industries-we-serve/gaming/#unity-3D" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+        <a href="https://dotpotit.com/industries-we-serve/gaming/#unity-3D" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 shadow-xl border-t-2 border-t-rose-200">
           <MdAnimation className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">
@@ -140,7 +140,7 @@ function ProvidedService() {
        
 
      
-        <a href="https://dotpotit.com/" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+        <a href="https://dotpotit.com/" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 shadow-xl border-t-2 border-t-rose-200">
           <GiDigitalTrace className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">
@@ -160,7 +160,7 @@ function ProvidedService() {
             </p>
           </div>
         </a>
-        <a href="https://dotpotit.com/contact" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+        <a href="https://dotpotit.com/key-features/contact-center-support/#training" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 shadow-xl border-t-2 border-t-rose-200">
           <MdConnectWithoutContact className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">
@@ -179,7 +179,7 @@ function ProvidedService() {
             </p>
           </div>
         </a>
-        <a href="https://dotpotit.com/key-features/it-support/#cloud-computing" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+        <a href="https://dotpotit.com/key-features/it-support/#cybersecurity" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 shadow-xl border-t-2 border-t-rose-200">
         <SiSpringsecurity className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">

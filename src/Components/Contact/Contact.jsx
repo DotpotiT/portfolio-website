@@ -63,7 +63,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="mx-auto lg:mt-20">
+    <div className="mx-auto lg:mt-20 ">
       <div className="mt-10 md:w-full mx-auto my-10 relative">
         <ToastContainer />
 

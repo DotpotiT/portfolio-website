@@ -25,7 +25,7 @@ function MissionVision() {
           </p>
         </div>
       </div>
-      <div className="px-2">
+      <div className="px-2 z-10">
         <div style={{ position: "relative", width: "100%", height: "100%" ,display:"flex", justifyContent:"center", }}>
           <video loop="1" autoPlay muted width="100%" height="80%" className="w-[42vh] lg:w-full" >
             <source

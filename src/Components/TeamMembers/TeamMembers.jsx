@@ -160,14 +160,17 @@ function TeamMembers() {
           {teamMembers.map((member, index) => (
             <div key={index} className="flex flex-col text-center">
               <div className="avatar ">
-  <div className="rounded-full w-[24] h-[25vh]  ">
-  <Image width={250}
-                height={200}
-                loading="lazy"
-                className="rounded-full "
-                src={member.imageSrc}
-                alt={`Team Member ${index + 1}`} />
-  </div>
+              <div className="rounded-full w-[24] h-[25vh] z-40" style={{ zIndex: 40}}>
+  <Image
+    width={250}
+    height={200}
+    loading="lazy"
+    className="rounded-full"
+    src={member.imageSrc}
+    alt={`Team Member ${index + 1}`}
+  />
+</div>
+
 </div>
            
             

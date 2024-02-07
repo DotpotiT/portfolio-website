@@ -82,7 +82,7 @@ function Testimonials() {
             <Image
               width={400}
               height={400} loading="lazy"
-              className="rounded-full "
+              className="rounded-full  z-25"
               src="https://res.cloudinary.com/dzqxgr4lr/image/upload/v1705914055/uznw0yc6akw5rp6dqzn1.png"
               alt="Clients Review- Dotpot iT"
             />

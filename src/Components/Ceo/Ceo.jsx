@@ -7,7 +7,7 @@ function Ceo() {
  
   return (
     <div className="flex flex-col lg:flex-row justify-evenly gap-8 mt-10 max-w-7xl mx-auto px-4">
-      <Image
+      <Image className="z-10"
         width={600}
         height={300}
         loading="lazy"

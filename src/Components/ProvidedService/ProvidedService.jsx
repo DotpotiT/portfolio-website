@@ -11,7 +11,7 @@ function ProvidedService() {
     <div className="max-w-7xl mx-auto mt-6 p-1">
       <h2 className="text-center text-2xl font-bold text-gray-400 my-8 mt-12">Our Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  py-8 gap-5">
-        <a href="https://dotpotit.com/web-development/landing-pag" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+        <a href="https://dotpotit.com/web-development/landing-page" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
           <div className="text-white text-7xl -mt-[3px] max-w-xl mx-auto">
             <TbBrandWebflow />
           </div>
@@ -54,7 +54,7 @@ function ProvidedService() {
             </p>
           </div>
         </a>
-        <a href="https://dotpotit.com/web-development/landing-pag" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
+        <a href="https://dotpotit.com/web-development/landing-page" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 bg-gray-800 shadow-xl border-t-2 border-t-rose-200">
           <GrCloudSoftware className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">

@@ -1,6 +1,7 @@
+"use client"
 import Footer from '@/Components/Footer/Footer';
 import Navbar from '@/Components/Navbar/Navbar';
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function WithNavbar({ children }) {
   const containerStyle = {
@@ -9,6 +10,10 @@ function WithNavbar({ children }) {
     backgroundPosition: 'center',
     // Other background properties can be added as needed
   };
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+}, []);
 
   return (
     <div className='bg-[#020505] w-full' style={containerStyle}>

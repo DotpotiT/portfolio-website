@@ -456,10 +456,12 @@ button:hover .liquids {
 }
 
 
-
 /* TeamMembers.css */
+
+/* Default styles */
 .scroller {
-  max-width: 60%;
+  max-width: 64%;
+  overflow-x: auto; /* Add horizontal scroll for small screens */
 }
 
 .scroller__inner {
@@ -467,10 +469,21 @@ button:hover .liquids {
   display: flex;
   flex-direction: row;
   gap: 4rem;
- 
 }
 
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+  .scroller {
+    max-width: 100%; /* Adjusted max-width for mobile */
+  }
 
+  .scroller__inner {
+    gap: 2rem; /* Reduced gap between items for mobile */
+    white-space: nowrap; /* Prevent items from wrapping to next line */
+  }
+}
+
+/* Animation styles */
 .scroller[data-animated="true"] {
   overflow: hidden;
   -webkit-mask: linear-gradient(
@@ -503,8 +516,4 @@ button:hover .liquids {
     transform: translate(calc(-50% - 0.5rem));
   }
 }
-
-
-
-
 

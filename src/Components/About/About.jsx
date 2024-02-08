@@ -11,7 +11,7 @@ function About() {
             height={600}
             src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1704383070/dkzystq9alhecixuhafi.png"
             alt="about"
-            className=" w-[45vh] lg:max-w-xl  rounded-lg shadow-2xl z-10"
+            className=" w-[45vh] lg:max-w-xl  rounded-lg shadow-2xl z-50"
           />
           <div>
             <h1 className="text-3xl font-bold text-gray-400">About Company!</h1>

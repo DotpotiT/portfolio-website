@@ -6,7 +6,7 @@ import Ceo from "@/Components/Ceo/Ceo";
 import Contact from "@/Components/Contact/Contact";
 import Faq from "@/Components/Faq/Faq";
 import MissionVission from "@/Components/MissionVission/MissionVission";
-import Particle from "@/Components/Particles/particle";
+import ParticleComponent from "@/Components/ParticleComponent/ParticleComponent";
 import Partners from "@/Components/Partners/Partners";
 import Products from "@/Components/Products/Products";
 import ProvidedService from "@/Components/ProvidedService/ProvidedService";
@@ -18,13 +18,11 @@ import WhyChooseUs from "@/Components/WhyChooseUs/WhyChooseUs";
 
 export default function Home() {
   return (
-    <main>
+    <main >
    
-        
-
-
-       
-        {/* <StarsCanvas /> */}
+    
+        <div className='w-full   '>
+        <ParticleComponent/>
         <Banner />
         <Services />
         <About />
@@ -38,8 +36,7 @@ export default function Home() {
 <TeamMembers/>
         <Partners />
         <Contact />
-        <div className='w-full top-0 absolute left-0  '>
-        <Particle/> 
+       
 
       </div>
    

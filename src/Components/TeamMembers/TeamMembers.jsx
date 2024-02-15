@@ -50,12 +50,12 @@ const teamMembers = [
  
   {
     name: "Nahid Hasan",
-    role: "Cybersecurity Expert",
+    role: "UI / UX Designer",
     imageSrc: "https://res.cloudinary.com/dzqxgr4lr/image/upload/v1705939532/ub6vzq1m09ovlggj9cik.jpg",
   },
   {
     name: "Md Kawsar Ali",
-    role: "Graphic Designer",
+    role: "Digital Marketing",
     imageSrc: "https://res.cloudinary.com/dzqxgr4lr/image/upload/v1705939532/thad2aswzkrectuwijod.jpg",
   },
   {

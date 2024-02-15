@@ -51,7 +51,7 @@ function Ceo() {
           </a>
 
           <a
-            href="https://uk.linkedin.com/in/zakir-hossain-dotpotit?trk=profile-badg"
+            href="https://uk.linkedin.com/in/zakir-hossain-dotpotit?trk=profile-badge"
             className="rounded-full border-dashed border-2 p-2"
             aria-label="Connect with us on LinkedIn" target="_blank"
           >

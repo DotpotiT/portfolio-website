@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 function WhyChooseUs() {
@@ -7,7 +8,7 @@ function WhyChooseUs() {
       <div className='flex flex-col md:flex-row lg:flex-row justify-between max-w-7xl mx-auto gap-4'>
     <div className="card w-full lg:w-96  shadow-sm">
   <figure className="px-10 pt-10">
-    <img src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705999576/Icon_3_q7hno9.png" alt="Expert Team" className="rounded-xl" />
+    <Image src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705999576/Icon_3_q7hno9.png"  width={100} height={100} alt="Expert Team" className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center">
     <h2 className="card-title">Expert Team</h2>
@@ -18,7 +19,7 @@ function WhyChooseUs() {
 </div>
     <div className="card w-full lg:w-96  shadow-xl ">
   <figure className="px-10 pt-10">
-    <img src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705999576/1_NOIcon_grs8sd.png" alt="Client centric approach" className="rounded-xl" />
+    <Image src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705999576/1_NOIcon_grs8sd.png"  width={100} height={100} alt="Client centric approach" className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center">
     <h2 className="card-title">Client Centric Approach</h2>
@@ -29,7 +30,7 @@ function WhyChooseUs() {
 </div>
     <div className="card w-full lg:w-96  shadow-sm">
   <figure className="px-10 pt-10">
-    <img src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705999576/Icon_3_q7hno9.png" alt="Innovation" className="rounded-xl" />
+    <Image src="https://res.cloudinary.com/dgohi0iqm/image/upload/v1705999576/Icon_3_q7hno9.png"  width={100} height={100} alt="Innovation" className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center">
     <h2 className="card-title">Innovation</h2>

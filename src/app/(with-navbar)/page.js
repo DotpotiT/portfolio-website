@@ -21,8 +21,7 @@ export default function Home() {
     <main >
    
     
-        <div className='w-full   '>
-        <ParticleComponent/>
+        <div className='w-full static z-50 '>
         <Banner />
         <Services />
         <About />
@@ -39,6 +38,7 @@ export default function Home() {
        
 
       </div>
+      <ParticleComponent/>
    
     </main>
   );

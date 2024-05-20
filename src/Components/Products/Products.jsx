@@ -10,6 +10,49 @@ function Products() {
         Our Recent Projects
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 px-2 md:px-10 lg:px-20">
+        <Link href="https://ai-ecommerce.dotpotit.com/"
+          
+          
+        >
+          <div className="rounded-lg shadow-md  shadow-primary/40 hover:shadow-xl hover:shadow-primary/40 overflow-hidden bg-base-100/50 aos-init aos-animate"
+          style={{
+            position: "relative",
+            cursor: "pointer",
+            backgroundColor: "transparent",
+          }}
+          onMouseEnter={() => {
+            document.getElementById("AI e-commerceDescription").style.opacity = "1";
+          }}
+          onMouseLeave={() => {
+            document.getElementById("AI e-commerceDescription").style.opacity = "0";
+          }}
+          >
+          <div className="relative w-full h-60 overflow-hidden">
+            <div className="h-max card">
+              <Image
+                width={400}
+                height={300} loading="lazy"
+                src="https://res.cloudinary.com/dzqxgr4lr/image/upload/v1716188484/ai-ecommerce.dotpotit.com__x6caqv.png"
+                alt="AI e-commerce"
+                className="object-cover object-top w-full"
+              />
+            </div>
+          </div>
+          <div>
+            <h2 className="text-gradient-primary text-center font-bold text-2xl mx-auto text-blue-400 pt-3">
+            AI e-commerce
+            </h2>
+         
+              <p className="text-lg text-semibold flex justify-center  text-neutral-content pt-2 pb-3">
+                Web Application
+              </p>
+           
+            <div  id="AI e-commerceDescription"></div>
+           
+          </div>
+          </div>
+         
+        </Link>
         <Link href="https://www.rmjautos.com/"
           
           
@@ -137,7 +180,7 @@ function Products() {
 
                
                
-       <Link   href="https://www.selectelwireless.com/"
+       {/* <Link   href="https://www.selectelwireless.com/"
  >
        <div
           className="rounded-lg shadow-md shadow-primary/40 hover:shadow-xl hover:shadow-primary/40 overflow-hidden bg-base-100/50 aos-init aos-animate"
@@ -178,7 +221,7 @@ function Products() {
         
           </div>
         </div>
-       </Link>
+       </Link> */}
 
       <Link href="https://noirbd.com/">
       <div

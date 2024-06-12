@@ -123,7 +123,7 @@ function ProvidedService() {
             </p>
           </div>
         </a>
-        <a href="https://dotpotit.com/industries-we-serve/gaming/#unity-3D" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 shadow-xl border-t-2 border-t-rose-200">
+        {/* <a href="https://dotpotit.com/industries-we-serve/gaming/#unity-3D" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 shadow-xl border-t-2 border-t-rose-200">
           <MdAnimation className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">
@@ -136,7 +136,7 @@ function ProvidedService() {
 </div>
 
         </a>
-      
+       */}
        
 
      
@@ -160,7 +160,7 @@ function ProvidedService() {
             </p>
           </div>
         </a>
-        <a href="https://dotpotit.com/key-features/contact-center-support/#training" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 shadow-xl border-t-2 border-t-rose-200">
+        {/* <a href="https://dotpotit.com/key-features/contact-center-support/#training" target="_blank" className="card w-[42vh] md:w-[48vh] mx-auto lg:w-96 shadow-xl border-t-2 border-t-rose-200">
           <MdConnectWithoutContact className="text-white text-7xl pt-3 max-w-xl mx-auto" />
 
           <div className="card-body transform -translate-y-4 items-center text-center">
@@ -191,7 +191,7 @@ function ProvidedService() {
               We help you keep your computers, networks, and data safe from hackers and other dangers. We check for any weak spots and fix them with firewalls and other tools. We also protect your private and important information with codes and passwords. We teach you how to avoid falling for tricks that hackers use to get your information. We watch over your systems all the time and alert you if something goes wrong. We also help you follow the rules and laws for cybersecurity.
             </p>
           </div>
-        </a>
+        </a> */}
       </div>
     </div>
   );

@@ -7,10 +7,8 @@ const services = [
   { name: "Software Development", link: "https://dotpotit.com/web-development/custom-website" },
   { name: "AI Development", link: "https://dotpotit.com/key-features/ai-development/#data-forecasting" },
   { name: "UI/UX Design", link: "https://dotpotit.com/industries-we-serve/gaming/#unity-3D" },
-  { name: "3D Animation", link: "https://dotpotit.com/industries-we-serve/gaming/#unity-3D" },
   { name: "Digital Marketing", link: "https://dotpotit.com/" },
-  { name: "Contact Center", link: "https://dotpotit.com/key-features/contact-center-support/#training" },
-  { name: "Cyber Security", link: "https://dotpotit.com/key-features/it-support/#cybersecurity" },
+
 ];
 
 function Services() {
